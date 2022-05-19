@@ -2781,6 +2781,22 @@
     {
       "name" : "padding-128",
       "value" : "128px"
+    },
+    {
+      "name" : "padding-10",
+      "value" : "10px"
+    },
+    {
+      "name" : "padding-6",
+      "value" : "6px"
+    },
+    {
+      "name" : "padding-12",
+      "value" : "12px"
+    },
+    {
+      "name" : "padding-24",
+      "value" : "24px"
     }
   ],
   "Filters" : [
