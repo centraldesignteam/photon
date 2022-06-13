@@ -1080,12 +1080,12 @@
     },
     {
     "name":"photon-components-input-border-default",
-    "value":"photon-semantic-border-low-contrast"
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
 
     },
     {
     "name":"photon-components-input-border-hover",
-    "value":"photon-semantic-border-high-contrast"
+    "value":"photon-semantic-border-medium-contrast"
 
     },
     {
@@ -1095,7 +1095,7 @@
     },
     {
     "name":"photon-components-input-border-filled",
-    "value":"photon-semantic-text-fields-border-default"
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
 
     },
     {
@@ -2246,6 +2246,53 @@
       "value" : "2px solid"
     }
   ],
+  "Semantic & Components borders" : [
+    {
+    "name":"photon-semantic-border-none",
+    "value":"photon-core-solid-0"
+
+    },
+    {
+    "name":"photon-semantic-border-1",
+    "value":"photon-core-solid-1"
+
+    },
+    {
+    "name":"photon-semantic-border-2",
+    "value":"photon-core-solid-2"
+
+    },
+    {
+    "name":"photon-components-button-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-controls-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-divider-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-inputs-border",
+    "value":"photon-core-solid-1"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border",
+    "value":"photon-semantic-border-2"
+
+    },
+    {
+    "name":"photon-components-tags-border",
+    "value":"photon-semantic-border-1"
+
+    }
+  ],
   "BorderRadiuses" : [
     {
       "name" : "photon-core-radius-0",
@@ -2262,6 +2309,43 @@
     {
       "name" : "photon-core-pill",
       "value" : "100px"
+    }
+  ],
+  "Semantic & Components border radii" : [
+    {
+    "name":"photon-semantic-radius-none",
+    "value":"photon-core-radius-0"
+
+    },
+    {
+    "name":"photon-semantic-radius-2",
+    "value":"photon-core-radius-2"
+
+    },
+    {
+    "name":"photon-semantic-radius-4",
+    "value":"photon-core-radius-4"
+
+    },
+    {
+    "name":"photon-semantic-radius-pill",
+    "value":"photon-core-pill"
+
+    },
+    {
+    "name":"photon-components-buttons-radius",
+    "value":"photon-semantic-radius-2"
+
+    },
+    {
+    "name":"photon-components-inputs-radius",
+    "value":"photon-core-radius-2"
+
+    },
+    {
+    "name":"photon-components-tags-radius",
+    "value":"photon-core-pill"
+
     }
   ],
   "fonts" : [
@@ -2352,7 +2436,7 @@
       "name" : "photon-core-plain-text-bold-18",
       "fontFamily" : "Roboto",
       "fontSize" : "18px",
-      "lineHeight" : "26px",
+      "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
@@ -2394,7 +2478,7 @@
       "name" : "photon-core-plain-text-regular-18",
       "fontFamily" : "Roboto",
       "fontSize" : "18px",
-      "lineHeight" : "26px",
+      "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
@@ -2436,7 +2520,7 @@
       "name" : "photon-core-branded-text-bold-18",
       "fontFamily" : "Roboto",
       "fontSize" : "18px",
-      "lineHeight" : "26px",
+      "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
@@ -2478,7 +2562,7 @@
       "name" : "photon-core-branded-text-regular-18",
       "fontFamily" : "Roboto",
       "fontSize" : "18px",
-      "lineHeight" : "26px",
+      "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
@@ -2829,90 +2913,6 @@
       "value" : "opacity(12%)"
     }
   ],
-  "Semantic & Components borders" : [
-    {
-    "name":"photon-semantic-border-none",
-    "value":"photon-core-solid-0"
-
-    },
-    {
-    "name":"photon-semantic-border-1",
-    "value":"photon-core-solid-1"
-
-    },
-    {
-    "name":"photon-semantic-border-2",
-    "value":"photon-core-solid-2"
-
-    },
-    {
-    "name":"photon-components-button-border",
-    "value":"photon-semantic-border-1"
-
-    },
-    {
-    "name":"photon-components-controls-border",
-    "value":"photon-semantic-border-1"
-
-    },
-    {
-    "name":"photon-components-divider-border",
-    "value":"photon-semantic-border-1"
-
-    },
-    {
-    "name":"photon-components-inputs-border",
-    "value":"photon-core-solid-1"
-
-    },
-    {
-    "name":"photon-components-notification-indicator-border",
-    "value":"photon-semantic-border-2"
-
-    },
-    {
-    "name":"photon-components-tags-border",
-    "value":"photon-semantic-border-1"
-
-    }
-  ],
-  "Semantic & Components border radii" : [
-    {
-    "name":"photon-semantic-radius-none",
-    "value":"photon-core-radius-0"
-
-    },
-    {
-    "name":"photon-semantic-radius-2",
-    "value":"photon-core-radius-2"
-
-    },
-    {
-    "name":"photon-semantic-radius-4",
-    "value":"photon-core-radius-4"
-
-    },
-    {
-    "name":"photon-semantic-radius-pill",
-    "value":"photon-core-pill"
-
-    },
-    {
-    "name":"photon-components-buttons-radius",
-    "value":"photon-semantic-radius-2"
-
-    },
-    {
-    "name":"photon-components-inputs-radius",
-    "value":"photon-core-radius-2"
-
-    },
-    {
-    "name":"photon-components-tags-radius",
-    "value":"photon-core-pill"
-
-    }
-  ],
   "Semantic & Components spacing" : [
     {
     "name":"photon-semantic-spacing-none",
@@ -2940,12 +2940,12 @@
 
     },
     {
-    "name":"photon-semantic-spacing-s",
+    "name":"photon-semantic-spacing-ss",
     "value":"photon-core-padding-10"
 
     },
     {
-    "name":"photon-semantic-spacing-s",
+    "name":"photon-semantic-spacing-sss",
     "value":"photon-core-padding-12"
 
     },
@@ -2981,7 +2981,7 @@
     },
     {
     "name":"photon-components-buttons-touch-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
@@ -3001,7 +3001,7 @@
     },
     {
     "name":"photon-components-buttons-touch-icon-only",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
@@ -3011,17 +3011,17 @@
     },
     {
     "name":"photon-components-controls-check-radio-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
     "name":"photon-components-inputs-content-touch-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
     "name":"photon-components-inputs-content-touch-lr",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
@@ -3041,7 +3041,7 @@
     },
     {
     "name":"photon-components-tabs-normal-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
@@ -3051,7 +3051,7 @@
     },
     {
     "name":"photon-components-tabs-selected-t",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
