@@ -26,11 +26,11 @@
     },
     {
       "name" : "photon-core-primary-80-primary",
-      "value" : "#ff506e"
+      "value" : "#ff506f"
     },
     {
       "name" : "photon-core-primary-100-primary",
-      "value" : "#ff375f"
+      "value" : "#e61e4e"
     },
     {
       "name" : "photon-core-primary-120-primary",
@@ -2940,12 +2940,12 @@
 
     },
     {
-    "name":"photon-semantic-spacing-s",
+    "name":"photon-semantic-spacing-ss",
     "value":"photon-core-padding-10"
 
     },
     {
-    "name":"photon-semantic-spacing-s",
+    "name":"photon-semantic-spacing-sss",
     "value":"photon-core-padding-12"
 
     },
@@ -2981,7 +2981,7 @@
     },
     {
     "name":"photon-components-buttons-touch-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
@@ -3001,7 +3001,7 @@
     },
     {
     "name":"photon-components-buttons-touch-icon-only",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
@@ -3011,17 +3011,17 @@
     },
     {
     "name":"photon-components-controls-check-radio-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
     "name":"photon-components-inputs-content-touch-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-ss"
 
     },
     {
     "name":"photon-components-inputs-content-touch-lr",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
@@ -3041,7 +3041,7 @@
     },
     {
     "name":"photon-components-tabs-normal-tb",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
@@ -3051,7 +3051,7 @@
     },
     {
     "name":"photon-components-tabs-selected-t",
-    "value":"photon-semantic-spacing-s"
+    "value":"photon-semantic-spacing-sss"
 
     },
     {
