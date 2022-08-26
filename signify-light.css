@@ -1,0 +1,790 @@
+
+/* colors */
+:root {
+  --photon-core-primary-00-primary: #ffffff;
+  --photon-core-primary-05-primary: #ebffec;
+  --photon-core-primary-10-primary: #c8fad8;
+  --photon-core-primary-20-primary: #57faa5;
+  --photon-core-primary-40-primary: #00e487;
+  --photon-core-primary-60-primary: #00c470;
+  --photon-core-primary-80-primary: #00a65e;
+  --photon-core-primary-100-primary: #00874c;
+  --photon-core-primary-120-primary: #006d3c;
+  --photon-core-primary-140-primary: #00522b;
+  --photon-core-primary-160-primary: #00391c;
+  --photon-core-primary-180-primary: #00210e;
+  --photon-core-secondary-00-secondary: #ffffff;
+  --photon-core-secondary-05-secondary: #f5f5f6;
+  --photon-core-secondary-10-secondary: #ebebec;
+  --photon-core-secondary-20-secondary: #d8d8d9;
+  --photon-core-secondary-40-secondary: #b1b1b1;
+  --photon-core-secondary-60-secondary: #8a8a8d;
+  --photon-core-secondary-80-secondary: #636367;
+  --photon-core-secondary-100-secondary: #3c3c41;
+  --photon-core-secondary-120-secondary: #303034;
+  --photon-core-secondary-140-secondary: #242427;
+  --photon-core-secondary-160-secondary: #18181a;
+  --photon-core-secondary-180-secondary: #050506;
+  --photon-core-tertiary-00-tertiary: #ffffff;
+  --photon-core-tertiary-05-tertiary: #f0efff;
+  --photon-core-tertiary-10-tertiary: #e8ebff;
+  --photon-core-tertiary-20-tertiary: #bbc2ff;
+  --photon-core-tertiary-40-tertiary: #a1adff;
+  --photon-core-tertiary-60-tertiary: #7586ff;
+  --photon-core-tertiary-80-tertiary: #435bff;
+  --photon-core-tertiary-100-tertiary: #1432ff;
+  --photon-core-tertiary-120-tertiary: #1028cc;
+  --photon-core-tertiary-140-tertiary: #000ea4;
+  --photon-core-tertiary-160-tertiary: #00056a;
+  --photon-core-tertiary-180-tertiary: #040a33;
+  --photon-core-red-00-red: #ffffff;
+  --photon-core-red-05-red: #fff4f2;
+  --photon-core-red-10-red: #ffedee;
+  --photon-core-red-20-red: #ffdad4;
+  --photon-core-red-40-red: #ffb4a9;
+  --photon-core-red-60-red: #ff897a;
+  --photon-core-red-80-red: #ff544a;
+  --photon-core-red-100-red: #e30010;
+  --photon-core-red-120-red: #c1000b;
+  --photon-core-red-140-red: #940006;
+  --photon-core-red-160-red: #600002;
+  --photon-core-red-180-red: #300001;
+  --photon-core-yellow-00-yellow: #ffffff;
+  --photon-core-yellow-05-yellow: #fef8f2;
+  --photon-core-yellow-10-yellow: #ffeedf;
+  --photon-core-yellow-20-yellow: #ffdcba;
+  --photon-core-yellow-40-yellow: #ffb86b;
+  --photon-core-yellow-60-yellow: #f69406;
+  --photon-core-yellow-80-yellow: #d27c00;
+  --photon-core-yellow-100-yellow: #ac6500;
+  --photon-core-yellow-120-yellow: #8b5000;
+  --photon-core-yellow-140-yellow: #6a3c00;
+  --photon-core-yellow-160-yellow: #4a2800;
+  --photon-core-yellow-180-yellow: #2d1600;
+  --photon-core-green-00-green: #ffffff;
+  --photon-core-green-05-green: #f2fff4;
+  --photon-core-green-10-green: #d2fadf;
+  --photon-core-green-20-green: #9ef3bf;
+  --photon-core-green-40-green: #5cdb91;
+  --photon-core-green-60-green: #00c652;
+  --photon-core-green-80-green: #00a740;
+  --photon-core-green-100-green: #008832;
+  --photon-core-green-120-green: #006e27;
+  --photon-core-green-140-green: #00531b;
+  --photon-core-green-160-green: #003910;
+  --photon-core-green-180-green: #002106;
+  --photon-core-transparent-transparent: #00000000;
+  --photon-core-data-visualization-magenta-00-magenta: #ffffff;
+  --photon-core-data-visualization-magenta-05-magenta: #fff2fb;
+  --photon-core-data-visualization-magenta-10-magenta: #ffe5f0;
+  --photon-core-data-visualization-magenta-20-magenta: #ffd8ea;
+  --photon-core-data-visualization-magenta-40-magenta: #ffaed9;
+  --photon-core-data-visualization-magenta-60-magenta: #ff7fca;
+  --photon-core-data-visualization-magenta-80-magenta: #ff3abe;
+  --photon-core-data-visualization-magenta-100-magenta: #de00a0;
+  --photon-core-data-visualization-magenta-120-magenta: #b4007f;
+  --photon-core-data-visualization-magenta-140-magenta: #8a0060;
+  --photon-core-data-visualization-magenta-160-magenta: #620043;
+  --photon-core-data-visualization-magenta-180-magenta: #3c0028;
+  --photon-core-neutral-00-neutral: #ffffff;
+  --photon-core-neutral-05-neutral: #f5f5f6;
+  --photon-core-neutral-10-neutral: #ebebec;
+  --photon-core-neutral-20-neutral: #d8d8d9;
+  --photon-core-neutral-40-neutral: #b1b1b3;
+  --photon-core-neutral-60-neutral: #8a8a8d;
+  --photon-core-neutral-80-neutral: #636367;
+  --photon-core-neutral-100-neutral: #3c3c41;
+  --photon-core-neutral-120-neutral: #303034;
+  --photon-core-neutral-140-neutral: #242427;
+  --photon-core-neutral-160-neutral: #18181a;
+  --photon-core-neutral-180-neutral: #050506;
+  --photon-core-neutral-200-neutral: #000000;
+  --photon-core-data-visualization-purple-00-purple: #ffffff;
+  --photon-core-data-visualization-purple-05-purple: #fdf5ff;
+  --photon-core-data-visualization-purple-10-purple: #feebff;
+  --photon-core-data-visualization-purple-20-purple: #f6d8ff;
+  --photon-core-data-visualization-purple-40-purple: #e9b2ff;
+  --photon-core-data-visualization-purple-60-purple: #da8cff;
+  --photon-core-data-visualization-purple-80-purple: #ca5fff;
+  --photon-core-data-visualization-purple-100-purple: #b528fb;
+  --photon-core-data-visualization-purple-120-purple: #9400d7;
+  --photon-core-data-visualization-purple-140-purple: #7100a5;
+  --photon-core-data-visualization-purple-160-purple: #4f0076;
+  --photon-core-data-visualization-purple-180-purple: #30004a;
+  --photon-core-data-visualization-light-blue-00-light-blue: #ffffff;
+  --photon-core-data-visualization-light-blue-05-light-blue: #e9f9fd;
+  --photon-core-data-visualization-light-blue-10-light-blue: #d5f6ff;
+  --photon-core-data-visualization-light-blue-20-light-blue: #a5eeff;
+  --photon-core-data-visualization-light-blue-40-light-blue: #49d7f4;
+  --photon-core-data-visualization-light-blue-60-light-blue: #10bbd7;
+  --photon-core-data-visualization-light-blue-80-light-blue: #009fb9;
+  --photon-core-data-visualization-light-blue-100-light-blue: #008196;
+  --photon-core-data-visualization-light-blue-120-light-blue: #00687a;
+  --photon-core-data-visualization-light-blue-140-light-blue: #004e5c;
+  --photon-core-data-visualization-light-blue-160-light-blue: #003640;
+  --photon-core-data-visualization-light-blue-180-light-blue: #001f26;
+  --photon-core-data-visualization-ink-blue-00-ink-blue: #ffffff;
+  --photon-core-data-visualization-ink-blue-05-ink-blue: #f5f8ff;
+  --photon-core-data-visualization-ink-blue-10-ink-blue: #ebedff;
+  --photon-core-data-visualization-ink-blue-20-ink-blue: #dae1ff;
+  --photon-core-data-visualization-ink-blue-40-ink-blue: #b4c4ff;
+  --photon-core-data-visualization-ink-blue-60-ink-blue: #8da8ff;
+  --photon-core-data-visualization-ink-blue-80-ink-blue: #638aff;
+  --photon-core-data-visualization-ink-blue-100-ink-blue: #336afd;
+  --photon-core-data-visualization-ink-blue-120-ink-blue: #0150e3;
+  --photon-core-data-visualization-ink-blue-140-ink-blue: #003ab3;
+  --photon-core-data-visualization-ink-blue-160-ink-blue: #002781;
+  --photon-core-data-visualization-ink-blue-180-ink-blue: #001552;
+  --photon-core-data-visualization-aqua-00-aqua: #ffffff;
+  --photon-core-data-visualization-aqua-05-aqua: #ebfff8;
+  --photon-core-data-visualization-aqua-10-aqua: #d2faf1;
+  --photon-core-data-visualization-aqua-20-aqua: #8af2de;
+  --photon-core-data-visualization-aqua-40-aqua: #45ddc2;
+  --photon-core-data-visualization-aqua-60-aqua: #08c0a6;
+  --photon-core-data-visualization-aqua-80-aqua: #00a38b;
+  --photon-core-data-visualization-aqua-100-aqua: #008672;
+  --photon-core-data-visualization-aqua-120-aqua: #006b5b;
+  --photon-core-data-visualization-aqua-140-aqua: #005144;
+  --photon-core-data-visualization-aqua-160-aqua: #00382e;
+  --photon-core-data-visualization-aqua-180-aqua: #00201a;
+  --photon-core-data-visualization-lime-green-00-lime-green: #ffffff;
+  --photon-core-data-visualization-lime-green-05-lime-green: #fdffe0;
+  --photon-core-data-visualization-lime-green-10-lime-green: #ebf479;
+  --photon-core-data-visualization-lime-green-20-lime-green: #dce84e;
+  --photon-core-data-visualization-lime-green-40-lime-green: #c3d000;
+  --photon-core-data-visualization-lime-green-60-lime-green: #a7b400;
+  --photon-core-data-visualization-lime-green-80-lime-green: #8c9800;
+  --photon-core-data-visualization-lime-green-100-lime-green: #737d00;
+  --photon-core-data-visualization-lime-green-120-lime-green: #5b6300;
+  --photon-core-data-visualization-lime-green-140-lime-green: #444b00;
+  --photon-core-data-visualization-lime-green-160-lime-green: #2e3300;
+  --photon-core-data-visualization-lime-green-180-lime-green: #1a1e00;
+  --photon-core-primary-200-primary: #000000;
+  --photon-core-transparent-12-of-neutral: #3c3c411f;
+  --photon-core-transparent-12-of-primary: #1432ff1f;
+  --photon-core-transparent-20-of-primary: #1432ff33;
+  --photon-core-transparent-20-of-neutral: #3c3c4133;
+  --photon-core-transparent-60-of-180-neutral: #05050699;
+  --photon-core-secondary-200-secondary: #000000;
+  --photon-core-tertiary-200-tertiary: #000000;
+  --photon-core-transparent-12-of-tertiary: #1432ff1f;
+  --photon-core-transparent-20-of-tertiary: #1432ff33;
+  --photon-core-transparent-4-of-200-neutral: #3c3c4133;
+  --photon-core-transparent-20-of-00-neutral: #3c3c4133;
+  --photon-core-transparent-12-of-00-neutral: #3c3c4133;
+  --photon-core-red-200-red: #000000;
+  --photon-core-yellow-200-yellow: #000000;
+  --photon-core-green-200-green: #000000;
+  --photon-core-data-visualization-lime-green-200-lime-green: #000000;
+  --photon-core-data-visualization-magenta-200-magenta: #000000;
+  --photon-core-data-visualization-aqua-200-aqua: #000000;
+  --photon-core-data-visualization-ink-blue-200-ink-blue: #000000;
+  --photon-core-data-visualization-light-blue-200-light-blue: #000000;
+  --photon-core-data-visualization-purple-200-purple: #000000;
+  --photon-core-logos-white: #ffffff;
+  --photon-core-logos-gray: #969696;
+  --photon-core-logos-dark: #3c3c41;
+  --photon-core-logos-coral: #ff375f;
+}
+
+/* Semantic Colors & Component Colors */
+:root {
+  --photon-semantic-primary: var(photon-core-primary-40-primary);
+  --photon-semantic-on-primary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-secondary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-secondary-inactive: var(photon-core-secondary-60-secondary);
+  --photon-semantic-on-secondary: var(photon-core-secondary-00-secondary);
+  --photon-semantic-tertiary: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-on-tertiary: var(photon-core-neutral-00-neutral);
+  --photon-semantic-background: var(photon-core-secondary-05-secondary);
+  --photon-semantic-on-background: var(photon-core-neutral-100-neutral);
+  --photon-semantic-surface: var(photon-core-neutral-00-neutral);
+  --photon-semantic-surface-hover: var(photon-core-neutral-10-neutral);
+  --photon-semantic-on-surface: var(photon-core-neutral-100-neutral);
+  --photon-semantic-error: var(photon-core-red-100-red);
+  --photon-semantic-on-error: var(photon-core-neutral-00-neutral);
+  --photon-semantic-warning: var(photon-core-yellow-80-yellow);
+  --photon-semantic-warning-light: var(photon-core-yellow-60-yellow);
+  --photon-semantic-on-warning: var(photon-core-neutral-100-neutral);
+  --photon-semantic-success: var(photon-core-green-80-green);
+  --photon-semantic-on-success: var(photon-core-neutral-00-neutral);
+  --photon-semantic-informative: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-on-informative: var(photon-core-neutral-00-neutral);
+  --photon-semantic-scrim: var(photon-core-transparent-60-of-180-neutral);
+  --photon-semantic-scrollbar: var(photon-core-neutral-20-neutral);
+  --photon-semantic-divider: var(photon-core-neutral-10-neutral);
+  --photon-semantic-text-default: var(photon-core-neutral-100-neutral);
+  --photon-semantic-text-secondary: var(photon-core-neutral-80-neutral);
+  --photon-semantic-text-placeholder: var(photon-core-neutral-60-neutral);
+  --photon-semantic-text-disabled: var(photon-core-neutral-20-neutral);
+  --photon-semantic-text-link-states-default: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-60-tertiary);
+  --photon-semantic-text-link-states-focused: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-text-link-states-pressed: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-text-link-states-disabled: var(photon-core-tertiary-20-tertiary);
+  --photon-semantic-icons-default: var(photon-core-neutral-60-neutral);
+  --photon-semantic-icons-actionable: var(photon-core-neutral-100-neutral);
+  --photon-semantic-icons-selected: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-icons-informative: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-data-visualization-magenta-main: var(photon-core-data-visualization-magenta-100-magenta);
+  --photon-semantic-data-visualization-purple-main: var(photon-core-data-visualization-purple-100-purple);
+  --photon-semantic-data-visualization-ink-blue-main: var(photon-core-data-visualization-ink-blue-100-ink-blue);
+  --photon-semantic-data-visualization-light-blue-main: var(photon-core-data-visualization-light-blue-100-light-blue);
+  --photon-semantic-data-visualization-aqua-main: var(photon-core-data-visualization-aqua-100-aqua);
+  --photon-semantic-data-visualization-lime-green-main: var(photon-core-data-visualization-lime-green-100-lime-green);
+  --photon-semantic-data-visualization-magenta-second: var(photon-core-data-visualization-magenta-140-magenta);
+  --photon-semantic-data-visualization-purple-second: var(photon-core-data-visualization-purple-140-purple);
+  --photon-semantic-data-visualization-ink-blue-second: var(photon-core-data-visualization-ink-blue-140-ink-blue);
+  --photon-semantic-data-visualization-light-blue-second: var(photon-core-data-visualization-light-blue-140-light-blue);
+  --photon-semantic-data-visualization-aqua-second: var(photon-core-data-visualization-aqua-140-aqua);
+  --photon-semantic-data-visualization-lime-green-second: var(photon-core-data-visualization-lime-green-140-lime-green);
+  --photon-semantic-data-visualization-magenta-third: var(photon-core-data-visualization-magenta-60-magenta);
+  --photon-semantic-data-visualization-purple-third: var(photon-core-data-visualization-purple-60-purple);
+  --photon-semantic-data-visualization-ink-blue-third: var(photon-core-data-visualization-ink-blue-60-ink-blue);
+  --photon-semantic-data-visualization-light-blue-third: var(photon-core-data-visualization-light-blue-60-light-blue);
+  --photon-semantic-data-visualization-aqua-third: var(photon-core-data-visualization-aqua-60-aqua);
+  --photon-semantic-data-visualization-lime-green-third: var(photon-core-data-visualization-lime-green-60-lime-green);
+  --photon-semantic-data-visualization-magenta-fourth: var(photon-core-data-visualization-magenta-20-magenta);
+  --photon-semantic-data-visualization-purple-fourth: var(photon-core-data-visualization-purple-20-purple);
+  --photon-semantic-data-visualization-ink-blue-fourth: var(photon-core-data-visualization-ink-blue-20-ink-blue);
+  --photon-semantic-data-visualization-light-blue-fourth: var(photon-core-data-visualization-light-blue-20-light-blue);
+  --photon-semantic-data-visualization-aqua-fourth: var(photon-core-data-visualization-aqua-20-aqua);
+  --photon-semantic-data-visualization-lime-green-fourth: var(photon-core-data-visualization-lime-green-20-lime-green);
+  --photon-semantic-contrast-colors-high: var(photon-core-neutral-00-neutral);
+  --photon-semantic-contrast-colors-medium: var(photon-core-secondary-05-secondary);
+  --photon-semantic-contrast-colors-low: var(photon-core-neutral-10-neutral);
+  --photon-semantic-contrast-colors-lowest-contrast: var(photon-core-neutral-20-neutral);
+  --photon-semantic-actionable-main-action-background: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-actionable-main-action-background-hover: var(photon-core-tertiary-80-tertiary);
+  --photon-semantic-actionable-main-action-background-pressed: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-actionable-main-action-on-main-action: var(photon-core-neutral-00-neutral);
+  --photon-semantic-actionable-action-background: var(photon-core-secondary-100-secondary);
+  --photon-semantic-actionable-action-background-hover: var(photon-core-secondary-80-secondary);
+  --photon-semantic-actionable-action-background-pressed: var(photon-core-secondary-120-secondary);
+  --photon-semantic-actionable-action-on-action: var(photon-core-neutral-00-neutral);
+  --photon-semantic-actionable-neutral-background: var(photon-core-transparent-transparent);
+  --photon-semantic-actionable-neutral-background-hover: var(photon-core-secondary-20-secondary);
+  --photon-semantic-actionable-neutral-background-pressed: var(photon-core-secondary-40-secondary);
+  --photon-semantic-actionable-neutral-on-neutral: var(photon-core-neutral-100-neutral);
+  --photon-semantic-actionable-quiet-background: var(photon-core-transparent-transparent);
+  --photon-semantic-actionable-quiet-background-hover: var(photon-core-secondary-20-secondary);
+  --photon-semantic-actionable-quiet-background-pressed: var(photon-core-secondary-40-secondary);
+  --photon-semantic-actionable-quiet-on-quiet: var(photon-core-neutral-100-neutral);
+  --photon-semantic-actionable-neutral-border: var(photon-core-secondary-100-secondary);
+  --photon-semantic-actionable-primary-background: var(photon-core-primary-40-primary);
+  --photon-semantic-actionable-primary-background-hover: var(photon-core-primary-20-primary);
+  --photon-semantic-actionable-primary-background-pressed: var(photon-core-primary-60-primary);
+  --photon-semantic-actionable-primary-on-primary: var(photon-core-neutral-100-neutral);
+  --photon-semantic-actionable-off-background: var(photon-semantic-contrast-colors-low);
+  --photon-semantic-border-default: var(photon-core-secondary-100-secondary);
+  --photon-semantic-border-no-border: var(photon-core-transparent-transparent);
+  --photon-semantic-border-error: var(photon-core-red-100-red);
+  --photon-semantic-border-error-focused: var(photon-core-red-120-red);
+  --photon-semantic-border-focused: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-border-focused-around-primary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-border-knob: var(photon-core-transparent-4-of-200-neutral);
+  --photon-semantic-border-low-contrast: var(photon-core-neutral-40-neutral);
+  --photon-semantic-border-medium-contrast: var(photon-core-neutral-60-neutral);
+  --photon-semantic-border-high-contrast: var(photon-core-neutral-80-neutral);
+  --photon-semantic-border-static-00-neutral: var(photon-core-neutral-00-neutral);
+  --photon-semantic-border-static-05-neutral: var(photon-core-neutral-05-neutral);
+  --photon-semantic-border-static-120-neutral: var(photon-core-neutral-120-neutral);
+  --photon-semantic-border-static-160-neutral: var(photon-core-neutral-160-neutral);
+  --photon-semantic-border-error-hover: var(photon-core-red-120-red);
+  --photon-semantic-halo-background-on: var(photon-core-transparent-12-of-tertiary);
+  --photon-semantic-halo-background-on-pressed: var(photon-core-transparent-20-of-tertiary);
+  --photon-semantic-halo-border-on-focussed: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-halo-background-off: var(photon-core-transparent-12-of-neutral);
+  --photon-semantic-halo-background-off-pressed: var(photon-core-transparent-20-of-neutral);
+  --photon-semantic-halo-border-off-focussed: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-track-background: var(photon-core-transparent-12-of-neutral);
+  --photon-semantic-track-foreground-primary: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-track-foreground-secondary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-alerts-high: var(photon-core-red-100-red);
+  --photon-semantic-alerts-on-high: var(photon-core-neutral-00-neutral);
+  --photon-semantic-alerts-medium: var(photon-core-yellow-60-yellow);
+  --photon-semantic-alerts-on-medium: var(photon-core-neutral-100-neutral);
+  --photon-semantic-logos-light: var(photon-core-logos-white);
+  --photon-semantic-logos-gray: var(photon-core-logos-gray);
+  --photon-semantic-logos-dark: var(photon-core-logos-dark);
+  --photon-semantic-logos-coral: var(photon-core-logos-coral);
+  --photon-semantic-logos-signify: var(photon-core-logos-signify);
+}
+
+/* Gradients */
+:root {
+  --photon-core-logos-signify: linear-gradient(61.31385242626061deg, #00e487 58.72%,#1ecbd0 100.00%);
+}
+
+/* fonts */
+:root {        
+--primary-font: Roboto;
+--secondary-font: Roboto;
+--signify-raisonne-demi-bold: Signify Raisonne;
+--signify-relative-faux: Signify Relative;
+--signify-relative-book: Signify Relative;
+--signify-relative-bold: Signify Relative;
+--open-sans-regular: Open Sans;
+--open-sans-700: Open Sans;
+}
+/* text styles*/
+.photon-core-h-1 {
+  font-family : var(--signify-raisonne-demi-bold);
+  font-size : 80px;
+  line-height: 96px;
+  letter-spacing : -0.01em;
+}
+.photon-core-h-2 {
+  font-family : var(--signify-raisonne-demi-bold);
+  font-size : 56px;
+  line-height: 68px;
+  letter-spacing : -0.005em;
+}
+.photon-core-h-3 {
+  font-family : var(--signify-raisonne-demi-bold);
+  font-size : 36px;
+  line-height: 44px;
+  letter-spacing : 0.0025em;
+}
+.photon-core-h-4 {
+  font-family : var(--signify-raisonne-demi-bold);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0.005em;
+}
+.photon-core-h-5 {
+  font-family : var(--signify-raisonne-demi-bold);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0.005em;
+}
+.photon-core-plain-text-bold-30 {
+  font-family : var(--signify-relative-bold);
+  font-size : 30px;
+  line-height: 38px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-24 {
+  font-family : var(--signify-relative-bold);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-18 {
+  font-family : var(--signify-relative-bold);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-16 {
+  font-family : var(--signify-relative-bold);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-14 {
+  font-family : var(--signify-relative-bold);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-12 {
+  font-family : var(--signify-relative-bold);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-30 {
+  font-family : var(--signify-relative-book);
+  font-size : 30px;
+  line-height: 38px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-24 {
+  font-family : var(--signify-relative-book);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-18 {
+  font-family : var(--signify-relative-book);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-16 {
+  font-family : var(--signify-relative-book);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-14 {
+  font-family : var(--signify-relative-book);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-12 {
+  font-family : var(--signify-relative-book);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-30 {
+  font-family : var(--signify-relative-bold);
+  font-size : 30px;
+  line-height: 38px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-24 {
+  font-family : var(--signify-relative-bold);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-18 {
+  font-family : var(--signify-relative-bold);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-16 {
+  font-family : var(--signify-relative-bold);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-14 {
+  font-family : var(--signify-relative-bold);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-12 {
+  font-family : var(--signify-relative-bold);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-30 {
+  font-family : var(--signify-relative-book);
+  font-size : 30px;
+  line-height: 38px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-24 {
+  font-family : var(--signify-relative-book);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-18 {
+  font-family : var(--signify-relative-book);
+  font-size : 18px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-16 {
+  font-family : var(--signify-relative-book);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-14 {
+  font-family : var(--signify-relative-book);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-12 {
+  font-family : var(--signify-relative-book);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0em;
+}
+
+/* Semantic & Component */
+:root {        
+--primary-font: Roboto;
+--secondary-font: Roboto;
+--signify-raisonne-demi-bold: Signify Raisonne;
+--signify-relative-faux: Signify Relative;
+--signify-relative-book: Signify Relative;
+--signify-relative-bold: Signify Relative;
+--open-sans-regular: Open Sans;
+--open-sans-700: Open Sans;
+}
+/* text styles*/
+.photon-components-buttons-main-action-touch-text {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-components-buttons-action-touch-text {
+  @extend .photon-semantic-branded-actionable-large;
+}
+.photon-components-buttons-neutral-touch-text {
+  @extend .photon-semantic-branded-actionable-large;
+}
+.photon-components-buttons-quiet-touch-text {
+  @extend .photon-semantic-branded-actionable-large;
+}
+.photon-components-buttons-main-action-pointer-text {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-components-buttons-action-pointer-text {
+  @extend .photon-semantic-branded-actionable-small;
+}
+.photon-components-buttons-neutral-pointer-text {
+  @extend .photon-semantic-branded-actionable-small;
+}
+.photon-components-buttons-quiet-pointer-text {
+  @extend .photon-semantic-branded-actionable-small;
+}
+.photon-components-input-touch-label {
+  @extend .photon-semantic-labels;
+}
+.photon-components-input-touch-text {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-input-touch-helper {
+  @extend .photon-semantic-caption;
+}
+.photon-components-input-pointer-label {
+  @extend .photon-semantic-labels;
+}
+.photon-components-input-pointer-text {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-input-pointer-helper {
+  @extend .photon-semantic-caption;
+}
+.photon-components-controls-label-touch {
+  @extend .photon-semantic-labels;
+}
+.photon-components-controls-label-pointer {
+  @extend .photon-semantic-labels;
+}
+.photon-components-list-items-pointer-label {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-list-items-touch-label {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-list-items-touch-section-header {
+  @extend .photon-semantic-labels;
+}
+.photon-components-list-items-pointer-section-header {
+  @extend .photon-semantic-labels;
+}
+.photon-components-tooltip-title {
+  @extend .photon-semantic-labels;
+}
+.photon-components-tooltip-description {
+  @extend .photon-semantic-caption;
+}
+.photon-components-tooltip-link {
+  @extend .photon-semantic-caption;
+}
+.photon-semantic-body-text-large {
+  @extend .photon-core-plain-text-regular-16;
+}
+.photon-semantic-body-text-small {
+  @extend .photon-core-plain-text-regular-14;
+}
+.photon-semantic-caption {
+  @extend .photon-core-plain-text-regular-12;
+}
+.photon-semantic-labels {
+  @extend .photon-core-plain-text-bold-12;
+}
+.photon-semantic-page-title-large {
+  @extend .photon-core-plain-text-bold-24;
+}
+.photon-semantic-page-title-small {
+  @extend .photon-core-plain-text-bold-18;
+}
+.photon-semantic-dialog-title {
+  @extend .photon-core-plain-text-bold-18;
+}
+.photon-semantic-footnotes {
+  @extend .photon-core-plain-text-regular-12;
+}
+.photon-semantic-disclaimer {
+  @extend .photon-semantic-caption;
+}
+.photon-semantic-card-title-large {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-semantic-section-title-large {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-semantic-cell-header-large {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-semantic-section-title-small {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-semantic-cell-header-small {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-semantic-cell-sublabel-small {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-semantic-card-title-small {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-components-date-picker-text {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-date-picker-text-today {
+  @extend .photon-semantic-body-text-small-bold;
+}
+.photon-semantic-body-text-small-bold {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-semantic-headings-heading-1 {
+  @extend .photon-core-h-1;
+}
+.photon-semantic-headings-heading-2 {
+  @extend .photon-core-h-2;
+}
+.photon-semantic-headings-heading-3 {
+  @extend .photon-core-h-3;
+}
+.photon-semantic-headings-heading-4 {
+  @extend .photon-core-h-4;
+}
+.photon-semantic-headings-heading-5 {
+  @extend .photon-core-h-5;
+}
+.photon-components-tags-text {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-cells-label {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-cells-sublabel {
+  @extend .photon-semantic-caption;
+}
+.photon-components-cells-plain-text {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-cells-table-header {
+  @extend .photon-core-plain-text-regular-24;
+}
+.photon-components-cells-cell-header {
+  @extend .photon-semantic-cell-header-small;
+}
+.photon-components-tabs-touch-text {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-tabs-pointer-text {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-progress-tracker-step-number {
+  @extend .photon-semantic-caption;
+}
+.photon-components-progress-tracker-step-name {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-list-items-pointer-sublabel {
+  @extend .photon-semantic-caption;
+}
+.photon-components-list-items-touch-sublabel {
+  @extend .photon-semantic-caption;
+}
+.photon-semantic-branded-actionable-large {
+  @extend .photon-core-branded-text-regular-16;
+}
+.photon-semantic-branded-actionable-small {
+  @extend .photon-core-branded-text-regular-14;
+}
+.photon-components-number-stepper-text-touch-default {
+  @extend .photon-core-plain-text-regular-16;
+}
+.photon-components-number-stepper-text-pointer-default {
+  @extend .photon-core-plain-text-regular-14;
+}
+.photon-components-number-stepper-text-touch-hover {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-components-number-stepper-text-pointer-hover {
+  @extend .photon-core-plain-text-bold-14;
+}
+.photon-components-snackbar-text {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-components-system-message-time {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-system-message-text {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-contextual-message-text {
+  @extend .photon-semantic-body-text-small;
+}
+
+/* Shadows */
+:root {
+  --photon-core-shadows-lvl-1: 0px 2px 4px 0px #0000001a, 0px 0px 4px 0px #0000001a;
+  --photon-core-shadows-lvl-2: 0px 2px 6px 0px #0000001a, 0px 0px 6px 0px #0000001a;
+  --photon-core-shadows-lvl-3: 0px 2px 8px 0px #0000001a, 0px 0px 8px 0px #0000001a;
+  --photon-core-shadows-lvl-4: 0px 3px 6px 0px #0000003d, 0px 3px 6px 0px #00000029;
+}
+
+/* Borders */
+:root {
+  --photon-core-solid-0: 0px solid;
+  --photon-core-solid-1: 1px solid;
+  --photon-core-solid-2: 2px solid;
+}
+
+/* BorderRadiuses */
+:root {
+  --photon-core-radius-0: 0px;
+  --photon-core-radius-2: 2px;
+  --photon-core-radius-4: 4px;
+  --photon-core-pill: 100px;
+}
+
+/* SpacePatterns */
+:root {
+  --photon-core-padding-none: 0px;
+  --photon-core-padding-2: 2px;
+  --photon-core-padding-4: 4px;
+  --photon-core-padding-8: 8px;
+  --photon-core-padding-16: 16px;
+  --photon-core-padding-32: 32px;
+  --photon-core-padding-64: 64px;
+  --photon-core-padding-128: 128px;
+  --photon-core-padding-10: 10px;
+  --photon-core-padding-6: 6px;
+  --photon-core-padding-12: 12px;
+  --photon-core-padding-24: 24px;
+}
+
+/* Filters */
+:root {
+  --opacity-0: opacity(0%);
+  --opacity-20: opacity(20%);
+  --opacity-30: opacity(30%);
+  --opacity-50: opacity(50%);
+  --opacity-60: opacity(60%);
+  --opacity-100: opacity(100%);
+  --opacity-12: opacity(12%);
+}
+
+/* durations */
+:root {
+  --instant: 0;
+  --x-fast: 128;
+  --fast: 160;
+  --normal: 200;
+  --slow: 250;
+  --x-slow: 313;
+}
+/* ease curves*/
+:root {
+}
+/* transitions*/
+:root {
+}
