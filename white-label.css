@@ -318,14 +318,14 @@
 
 /* fonts */
 :root {        
---primary-font: Roboto;
---secondary-font: Roboto;
---signify-raisonne-demi-bold: Signify Raisonne;
---signify-relative-faux: Signify Relative;
---signify-relative-book: Signify Relative;
---signify-relative-bold: Signify Relative;
---open-sans-regular: Open Sans;
---open-sans-700: Open Sans;
+--primary-font: "Roboto";
+--secondary-font: "Roboto";
+--signify-raisonne-demi-bold: "Signify Raisonne";
+--signify-relative-faux: "Signify Relative";
+--signify-relative-book: "Signify Relative";
+--signify-relative-bold: "Signify Relative";
+--open-sans-regular: "Open Sans";
+--open-sans-700: "Open Sans";
 }
 /* text styles*/
 .photon-core-h-1 {
