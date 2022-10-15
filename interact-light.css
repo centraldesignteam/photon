@@ -14,29 +14,29 @@
   --photon-core-primary-160-primary: #67001a;
   --photon-core-primary-180-primary: #40000d;
   --photon-core-secondary-00-secondary: #ffffff;
-  --photon-core-secondary-05-secondary: #f5f5f6;
-  --photon-core-secondary-10-secondary: #ebebec;
-  --photon-core-secondary-20-secondary: #d8d8d9;
-  --photon-core-secondary-40-secondary: #b1b1b1;
-  --photon-core-secondary-60-secondary: #8a8a8d;
-  --photon-core-secondary-80-secondary: #636367;
-  --photon-core-secondary-100-secondary: #3c3c41;
-  --photon-core-secondary-120-secondary: #303034;
-  --photon-core-secondary-140-secondary: #242427;
-  --photon-core-secondary-160-secondary: #18181a;
-  --photon-core-secondary-180-secondary: #050506;
+  --photon-core-secondary-05-secondary: #f7f7fa;
+  --photon-core-secondary-10-secondary: #ededf0;
+  --photon-core-secondary-20-secondary: #e1e1e6;
+  --photon-core-secondary-40-secondary: #c7c7cc;
+  --photon-core-secondary-60-secondary: #aaaaae;
+  --photon-core-secondary-80-secondary: #8e8e94;
+  --photon-core-secondary-100-secondary: #75757a;
+  --photon-core-secondary-120-secondary: #5d5d61;
+  --photon-core-secondary-140-secondary: #3c3c41;
+  --photon-core-secondary-160-secondary: #303034;
+  --photon-core-secondary-180-secondary: #1b1b1f;
   --photon-core-tertiary-00-tertiary: #ffffff;
-  --photon-core-tertiary-05-tertiary: #f0efff;
-  --photon-core-tertiary-10-tertiary: #e8ebff;
-  --photon-core-tertiary-20-tertiary: #bbc2ff;
-  --photon-core-tertiary-40-tertiary: #a1adff;
-  --photon-core-tertiary-60-tertiary: #7586ff;
-  --photon-core-tertiary-80-tertiary: #435bff;
-  --photon-core-tertiary-100-tertiary: #1432ff;
-  --photon-core-tertiary-120-tertiary: #1028cc;
-  --photon-core-tertiary-140-tertiary: #000ea4;
-  --photon-core-tertiary-160-tertiary: #00056a;
-  --photon-core-tertiary-180-tertiary: #040a33;
+  --photon-core-tertiary-05-tertiary: #f5f5ff;
+  --photon-core-tertiary-10-tertiary: #e5e7ff;
+  --photon-core-tertiary-20-tertiary: #d1d5ff;
+  --photon-core-tertiary-40-tertiary: #bbc2ff;
+  --photon-core-tertiary-60-tertiary: #99a5ff;
+  --photon-core-tertiary-80-tertiary: #7083ff;
+  --photon-core-tertiary-100-tertiary: #3d56ff;
+  --photon-core-tertiary-120-tertiary: #1432ff;
+  --photon-core-tertiary-140-tertiary: #0018d6;
+  --photon-core-tertiary-160-tertiary: #000ea4;
+  --photon-core-tertiary-180-tertiary: #00056a;
   --photon-core-red-00-red: #ffffff;
   --photon-core-red-05-red: #fff4f2;
   --photon-core-red-10-red: #ffedee;
@@ -87,17 +87,17 @@
   --photon-core-data-visualization-magenta-160-magenta: #620043;
   --photon-core-data-visualization-magenta-180-magenta: #3c0028;
   --photon-core-neutral-00-neutral: #ffffff;
-  --photon-core-neutral-05-neutral: #f5f5f6;
-  --photon-core-neutral-10-neutral: #ebebec;
-  --photon-core-neutral-20-neutral: #d8d8d9;
-  --photon-core-neutral-40-neutral: #b1b1b3;
-  --photon-core-neutral-60-neutral: #8a8a8d;
-  --photon-core-neutral-80-neutral: #636367;
-  --photon-core-neutral-100-neutral: #3c3c41;
-  --photon-core-neutral-120-neutral: #303034;
-  --photon-core-neutral-140-neutral: #242427;
-  --photon-core-neutral-160-neutral: #18181a;
-  --photon-core-neutral-180-neutral: #050506;
+  --photon-core-neutral-05-neutral: #f7f7fa;
+  --photon-core-neutral-10-neutral: #ededf0;
+  --photon-core-neutral-20-neutral: #e1e1e6;
+  --photon-core-neutral-40-neutral: #c7c7cc;
+  --photon-core-neutral-60-neutral: #aaaaae;
+  --photon-core-neutral-80-neutral: #8e8e94;
+  --photon-core-neutral-100-neutral: #75757a;
+  --photon-core-neutral-120-neutral: #5d5d61;
+  --photon-core-neutral-140-neutral: #3c3c41;
+  --photon-core-neutral-160-neutral: #303034;
+  --photon-core-neutral-180-neutral: #1b1b1f;
   --photon-core-neutral-200-neutral: #000000;
   --photon-core-data-visualization-purple-00-purple: #ffffff;
   --photon-core-data-visualization-purple-05-purple: #fdf5ff;
@@ -164,7 +164,7 @@
   --photon-core-transparent-12-of-primary: #ff375f1f;
   --photon-core-transparent-20-of-primary: #ff375f33;
   --photon-core-transparent-20-of-neutral: #3c3c4133;
-  --photon-core-transparent-60-of-180-neutral: #05050699;
+  --photon-core-transparent-60-of-180-neutral: #1b1b1f99;
   --photon-core-secondary-200-secondary: #000000;
   --photon-core-tertiary-200-tertiary: #000000;
   --photon-core-transparent-12-of-tertiary: #1432ff1f;
@@ -185,47 +185,49 @@
   --photon-core-logos-gray: #969696;
   --photon-core-logos-dark: #3c3c41;
   --photon-core-logos-coral: #ff375f;
+  --✗-photon-components-contextual-message-border-overlay: #3c3c41;
 }
 
 /* Semantic Colors & Component Colors */
 :root {
   --photon-semantic-primary: var(photon-core-primary-100-primary);
   --photon-semantic-on-primary: var(photon-core-primary-00-primary);
-  --photon-semantic-secondary: var(photon-core-secondary-100-secondary);
-  --photon-semantic-secondary-inactive: var(photon-core-secondary-60-secondary);
+  --photon-semantic-secondary: var(photon-core-secondary-140-secondary);
+  --photon-semantic-secondary-inactive: var(photon-core-secondary-80-secondary);
   --photon-semantic-on-secondary: var(photon-core-secondary-00-secondary);
-  --photon-semantic-tertiary: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-tertiary: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-on-tertiary: var(photon-core-neutral-00-neutral);
   --photon-semantic-background: var(photon-core-secondary-05-secondary);
-  --photon-semantic-on-background: var(photon-core-neutral-100-neutral);
+  --photon-semantic-on-background: var(photon-core-neutral-140-neutral);
   --photon-semantic-surface: var(photon-core-neutral-00-neutral);
   --photon-semantic-surface-hover: var(photon-core-neutral-10-neutral);
-  --photon-semantic-on-surface: var(photon-core-neutral-100-neutral);
+  --photon-semantic-on-surface: var(photon-core-neutral-140-neutral);
   --photon-semantic-error: var(photon-core-red-100-red);
   --photon-semantic-on-error: var(photon-core-neutral-00-neutral);
   --photon-semantic-warning: var(photon-core-yellow-80-yellow);
   --photon-semantic-warning-light: var(photon-core-yellow-60-yellow);
-  --photon-semantic-on-warning: var(photon-core-neutral-100-neutral);
+  --photon-semantic-on-warning: var(photon-core-yellow-00-yellow);
+  --photon-semantic-on-warning-light: var(photon-core-yellow-160-yellow);
   --photon-semantic-success: var(photon-core-green-80-green);
   --photon-semantic-on-success: var(photon-core-neutral-00-neutral);
-  --photon-semantic-informative: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-informative: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-on-informative: var(photon-core-neutral-00-neutral);
   --photon-semantic-scrim: var(photon-core-transparent-60-of-180-neutral);
   --photon-semantic-scrollbar: var(photon-core-neutral-20-neutral);
   --photon-semantic-divider: var(photon-core-neutral-10-neutral);
-  --photon-semantic-text-default: var(photon-core-neutral-100-neutral);
-  --photon-semantic-text-secondary: var(photon-core-neutral-80-neutral);
-  --photon-semantic-text-placeholder: var(photon-core-neutral-60-neutral);
-  --photon-semantic-text-disabled: var(photon-core-neutral-20-neutral);
-  --photon-semantic-text-link-states-default: var(photon-core-tertiary-100-tertiary);
-  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-60-tertiary);
-  --photon-semantic-text-link-states-focused: var(photon-core-tertiary-100-tertiary);
-  --photon-semantic-text-link-states-pressed: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-text-default: var(photon-core-neutral-140-neutral);
+  --photon-semantic-text-secondary: var(photon-core-neutral-120-neutral);
+  --photon-semantic-text-placeholder: var(photon-core-neutral-80-neutral);
+  --photon-semantic-text-disabled: var(photon-core-neutral-40-neutral);
+  --photon-semantic-text-link-states-default: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-80-tertiary);
+  --photon-semantic-text-link-states-focused: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-text-link-states-pressed: var(photon-core-tertiary-140-tertiary);
   --photon-semantic-text-link-states-disabled: var(photon-core-tertiary-20-tertiary);
-  --photon-semantic-icons-default: var(photon-core-neutral-60-neutral);
-  --photon-semantic-icons-actionable: var(photon-core-neutral-100-neutral);
+  --photon-semantic-icons-default: var(photon-core-neutral-80-neutral);
+  --photon-semantic-icons-actionable: var(photon-core-neutral-140-neutral);
   --photon-semantic-icons-selected: var(photon-core-primary-100-primary);
-  --photon-semantic-icons-informative: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-icons-informative: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-data-visualization-magenta-main: var(photon-core-data-visualization-magenta-100-magenta);
   --photon-semantic-data-visualization-purple-main: var(photon-core-data-visualization-purple-100-purple);
   --photon-semantic-data-visualization-ink-blue-main: var(photon-core-data-visualization-ink-blue-100-ink-blue);
@@ -253,57 +255,57 @@
   --photon-semantic-contrast-colors-high: var(photon-core-neutral-00-neutral);
   --photon-semantic-contrast-colors-medium: var(photon-core-secondary-05-secondary);
   --photon-semantic-contrast-colors-low: var(photon-core-neutral-10-neutral);
-  --photon-semantic-contrast-colors-lowest-contrast: var(photon-core-neutral-20-neutral);
+  --photon-semantic-contrast-colors-lowest-contrast: var(photon-core-neutral-40-neutral);
   --photon-semantic-actionable-main-action-background: var(photon-core-primary-100-primary);
   --photon-semantic-actionable-main-action-background-hover: var(photon-core-primary-80-primary);
   --photon-semantic-actionable-main-action-background-pressed: var(photon-core-primary-120-primary);
   --photon-semantic-actionable-main-action-on-main-action: var(photon-core-neutral-00-neutral);
-  --photon-semantic-actionable-action-background: var(photon-core-secondary-100-secondary);
-  --photon-semantic-actionable-action-background-hover: var(photon-core-secondary-80-secondary);
-  --photon-semantic-actionable-action-background-pressed: var(photon-core-secondary-120-secondary);
+  --photon-semantic-actionable-action-background: var(photon-core-secondary-140-secondary);
+  --photon-semantic-actionable-action-background-hover: var(photon-core-secondary-160-secondary);
+  --photon-semantic-actionable-action-background-pressed: var(photon-core-secondary-160-secondary);
   --photon-semantic-actionable-action-on-action: var(photon-core-neutral-00-neutral);
   --photon-semantic-actionable-neutral-background: var(photon-core-transparent-transparent);
   --photon-semantic-actionable-neutral-background-hover: var(photon-core-secondary-20-secondary);
-  --photon-semantic-actionable-neutral-background-pressed: var(photon-core-secondary-40-secondary);
+  --photon-semantic-actionable-neutral-background-pressed: var(photon-core-secondary-60-secondary);
   --photon-semantic-actionable-neutral-on-neutral: var(photon-core-neutral-100-neutral);
   --photon-semantic-actionable-quiet-background: var(photon-core-transparent-transparent);
   --photon-semantic-actionable-quiet-background-hover: var(photon-core-secondary-20-secondary);
   --photon-semantic-actionable-quiet-background-pressed: var(photon-core-secondary-40-secondary);
-  --photon-semantic-actionable-quiet-on-quiet: var(photon-core-neutral-100-neutral);
-  --photon-semantic-actionable-neutral-border: var(photon-core-secondary-100-secondary);
+  --photon-semantic-actionable-quiet-on-quiet: var(photon-core-neutral-140-neutral);
+  --photon-semantic-actionable-neutral-border: var(photon-core-secondary-140-secondary);
   --photon-semantic-actionable-primary-background: var(photon-core-primary-100-primary);
   --photon-semantic-actionable-primary-background-hover: var(photon-core-primary-80-primary);
   --photon-semantic-actionable-primary-background-pressed: var(photon-core-primary-120-primary);
   --photon-semantic-actionable-primary-on-primary: var(photon-core-neutral-00-neutral);
   --photon-semantic-actionable-off-background: var(photon-semantic-contrast-colors-low);
-  --photon-semantic-border-default: var(photon-core-secondary-100-secondary);
+  --photon-semantic-border-default: var(photon-core-secondary-140-secondary);
   --photon-semantic-border-no-border: var(photon-core-transparent-transparent);
   --photon-semantic-border-error: var(photon-core-red-100-red);
   --photon-semantic-border-error-focused: var(photon-core-red-120-red);
-  --photon-semantic-border-focused: var(photon-core-tertiary-100-tertiary);
-  --photon-semantic-border-focused-around-primary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-border-focused: var(photon-core-tertiary-120-tertiary);
+  --photon-semantic-border-focused-around-primary: var(photon-core-secondary-140-secondary);
   --photon-semantic-border-knob: var(photon-core-transparent-4-of-200-neutral);
-  --photon-semantic-border-low-contrast: var(photon-core-neutral-40-neutral);
-  --photon-semantic-border-medium-contrast: var(photon-core-neutral-60-neutral);
+  --photon-semantic-border-low-contrast: var(photon-core-neutral-60-neutral);
+  --photon-semantic-border-medium-contrast: var(photon-core-neutral-80-neutral);
   --photon-semantic-border-high-contrast: var(photon-core-neutral-80-neutral);
   --photon-semantic-border-static-00-neutral: var(photon-core-neutral-00-neutral);
   --photon-semantic-border-static-05-neutral: var(photon-core-neutral-05-neutral);
-  --photon-semantic-border-static-120-neutral: var(photon-core-neutral-120-neutral);
-  --photon-semantic-border-static-160-neutral: var(photon-core-neutral-160-neutral);
+  --photon-semantic-border-static-120-neutral: var(photon-core-neutral-160-neutral);
+  --photon-semantic-border-static-160-neutral: var(photon-core-neutral-180-neutral);
   --photon-semantic-border-error-hover: var(photon-core-red-120-red);
   --photon-semantic-halo-background-on: var(photon-core-transparent-12-of-primary);
   --photon-semantic-halo-background-on-pressed: var(photon-core-transparent-20-of-primary);
   --photon-semantic-halo-border-on-focussed: var(photon-core-primary-100-primary);
   --photon-semantic-halo-background-off: var(photon-core-transparent-12-of-neutral);
   --photon-semantic-halo-background-off-pressed: var(photon-core-transparent-20-of-neutral);
-  --photon-semantic-halo-border-off-focussed: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-halo-border-off-focussed: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-track-background: var(photon-core-transparent-12-of-neutral);
   --photon-semantic-track-foreground-primary: var(photon-core-primary-100-primary);
-  --photon-semantic-track-foreground-secondary: var(photon-core-secondary-100-secondary);
+  --photon-semantic-track-foreground-secondary: var(photon-core-secondary-140-secondary);
   --photon-semantic-alerts-high: var(photon-core-red-100-red);
   --photon-semantic-alerts-on-high: var(photon-core-neutral-00-neutral);
   --photon-semantic-alerts-medium: var(photon-core-yellow-60-yellow);
-  --photon-semantic-alerts-on-medium: var(photon-core-neutral-100-neutral);
+  --photon-semantic-alerts-on-medium: var(photon-core-neutral-140-neutral);
   --photon-semantic-logos-light: var(photon-core-logos-white);
   --photon-semantic-logos-gray: var(photon-core-logos-gray);
   --photon-semantic-logos-dark: var(photon-core-logos-dark);
@@ -688,28 +690,34 @@
 .photon-semantic-branded-actionable-small {
   @extend .photon-core-branded-text-regular-14;
 }
-.photon-components-number-stepper-text-touch-default {
-  @extend .photon-core-plain-text-regular-16;
+.photon-components-stepper-text-touch {
+  @extend .photon-semantic-body-text-large;
 }
-.photon-components-number-stepper-text-pointer-default {
-  @extend .photon-core-plain-text-regular-14;
-}
-.photon-components-number-stepper-text-touch-hover {
-  @extend .photon-core-plain-text-bold-16;
-}
-.photon-components-number-stepper-text-pointer-hover {
-  @extend .photon-core-plain-text-bold-14;
+.photon-components-stepper-text-pointer {
+  @extend .photon-semantic-body-text-small;
 }
 .photon-components-snackbar-text {
   @extend .photon-semantic-body-text-large;
 }
-.photon-components-system-message-time {
+.photon-components-system-message-text {
   @extend .photon-semantic-body-text-small;
 }
-.photon-components-system-message-text {
+.photon-components-contextual-message-text {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-dialogs-title {
+  @extend .photon-semantic-dialog-title;
+}
+.photon-components-dialogs-content {
   @extend .photon-semantic-body-text-large;
 }
-.photon-components-contextual-message-text {
+.photon-components-expander-label-touch {
+  @extend .photon-semantic-body-text-large;
+}
+.photon-components-expander-label-pointer {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-contextual-message-overlay-text {
   @extend .photon-semantic-body-text-small;
 }
 
