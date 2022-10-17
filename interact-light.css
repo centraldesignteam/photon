@@ -220,7 +220,7 @@
   --photon-semantic-text-placeholder: var(photon-core-neutral-80-neutral);
   --photon-semantic-text-disabled: var(photon-core-neutral-40-neutral);
   --photon-semantic-text-link-states-default: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-80-tertiary);
+  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-100-tertiary);
   --photon-semantic-text-link-states-focused: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-text-link-states-pressed: var(photon-core-tertiary-140-tertiary);
   --photon-semantic-text-link-states-disabled: var(photon-core-tertiary-20-tertiary);
