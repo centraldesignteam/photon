@@ -226,7 +226,7 @@
   --photon-semantic-text-link-states-disabled: var(photon-core-tertiary-20-tertiary);
   --photon-semantic-icons-default: var(photon-core-neutral-80-neutral);
   --photon-semantic-icons-actionable: var(photon-core-neutral-140-neutral);
-  --photon-semantic-icons-selected: var(photon-core-tertiary-100-tertiary);
+  --photon-semantic-icons-selected: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-icons-informative: var(photon-core-tertiary-120-tertiary);
   --photon-semantic-data-visualization-magenta-main: var(photon-core-data-visualization-magenta-100-magenta);
   --photon-semantic-data-visualization-purple-main: var(photon-core-data-visualization-purple-100-purple);
@@ -267,7 +267,7 @@
   --photon-semantic-actionable-neutral-background: var(photon-core-transparent-transparent);
   --photon-semantic-actionable-neutral-background-hover: var(photon-core-secondary-20-secondary);
   --photon-semantic-actionable-neutral-background-pressed: var(photon-core-secondary-60-secondary);
-  --photon-semantic-actionable-neutral-on-neutral: var(photon-core-neutral-100-neutral);
+  --photon-semantic-actionable-neutral-on-neutral: var(photon-core-neutral-140-neutral);
   --photon-semantic-actionable-quiet-background: var(photon-core-transparent-transparent);
   --photon-semantic-actionable-quiet-background-hover: var(photon-core-secondary-20-secondary);
   --photon-semantic-actionable-quiet-background-pressed: var(photon-core-secondary-40-secondary);
@@ -276,7 +276,7 @@
   --photon-semantic-actionable-primary-background: var(photon-core-primary-40-primary);
   --photon-semantic-actionable-primary-background-hover: var(photon-core-primary-20-primary);
   --photon-semantic-actionable-primary-background-pressed: var(photon-core-primary-60-primary);
-  --photon-semantic-actionable-primary-on-primary: var(photon-core-neutral-100-neutral);
+  --photon-semantic-actionable-primary-on-primary: var(photon-core-secondary-140-secondary);
   --photon-semantic-actionable-off-background: var(photon-semantic-contrast-colors-low);
   --photon-semantic-border-default: var(photon-core-secondary-140-secondary);
   --photon-semantic-border-no-border: var(photon-core-transparent-transparent);
