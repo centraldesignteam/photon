@@ -834,7 +834,7 @@
     },
     {
     "name":"photon-semantic-text-link-states-hover",
-    "value":"photon-core-tertiary-80-tertiary"
+    "value":"photon-core-tertiary-100-tertiary"
 
     },
     {
@@ -2004,7 +2004,7 @@
     },
     {
     "name":"photon-semantic-actionable-neutral-on-neutral",
-    "value":"photon-core-neutral-100-neutral"
+    "value":"photon-core-neutral-140-neutral"
 
     },
     {
