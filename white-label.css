@@ -326,115 +326,143 @@
 --signify-relative-faux: "Signify Relative";
 --signify-relative-book: "Signify Relative";
 --signify-relative-bold: "Signify Relative";
---open-sans-regular: "Open Sans";
 --open-sans-700: "Open Sans";
+--roboto-medium: "Roboto-Medium";
+--inter-regular: "Inter";
+--roboto-500: "Roboto";
+--open-sans-600: "Open Sans";
+--open-sans-regular: "Open Sans";
 }
 /* text styles*/
 .photon-core-h-1 {
   font-family : var(--signify-relative-faux);
-  font-size : 80px;
-  line-height: 96px;
-  letter-spacing : -0.01em;
+  font-size : 57px;
+  line-height: 72px;
+  letter-spacing : -0.25px;
 }
 .photon-core-h-2 {
   font-family : var(--signify-relative-faux);
-  font-size : 56px;
+  font-size : 45px;
   line-height: 68px;
-  letter-spacing : -0.005em;
+  letter-spacing : -.15px;
 }
 .photon-core-h-3 {
   font-family : var(--signify-relative-faux);
   font-size : 36px;
   line-height: 44px;
-  letter-spacing : 0.0025em;
+  letter-spacing : -0.15000000596046448px;
 }
 .photon-core-h-4 {
   font-family : var(--signify-relative-faux);
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0.005em;
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : -.15px;
 }
 .photon-core-h-5 {
   font-family : var(--signify-relative-faux);
-  font-size : 18px;
-  line-height: 28px;
-  letter-spacing : 0.005em;
+  font-size : 28px;
+  line-height: 36px;
+  letter-spacing : -0.15px;
 }
-.photon-core-plain-text-bold-30 {
-  font-family : var(--primary-font);
-  font-size : 30px;
+.photon-core-h-6 {
+  font-family : var(--signify-relative-faux);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : -0.15000000596046448px;
+}
+.photon-core-plain-text-bold-32 {
+  font-family : var(--open-sans-700);
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-bold-28 {
+  font-family : var(--open-sans-700);
+  font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-24 {
-  font-family : var(--primary-font);
+  font-family : var(--open-sans-700);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
-.photon-core-plain-text-bold-18 {
-  font-family : var(--primary-font);
-  font-size : 18px;
+.photon-core-plain-text-bold-20 {
+  font-family : var(--open-sans-700);
+  font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-16 {
-  font-family : var(--primary-font);
+  font-family : var(--open-sans-700);
   font-size : 16px;
   line-height: 24px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-14 {
-  font-family : var(--primary-font);
+  font-family : var(--open-sans-700);
   font-size : 14px;
   line-height: 20px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-12 {
-  font-family : var(--primary-font);
+  font-family : var(--open-sans-700);
   font-size : 12px;
   line-height: 16px;
   letter-spacing : 0em;
 }
-.photon-core-plain-text-regular-30 {
-  font-family : var(--secondary-font);
-  font-size : 30px;
+.photon-core-plain-text-regular-32 {
+  font-family : var(--open-sans-regular);
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-regular-28 {
+  font-family : var(--open-sans-regular);
+  font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-24 {
-  font-family : var(--secondary-font);
+  font-family : var(--open-sans-regular);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
-.photon-core-plain-text-regular-18 {
-  font-family : var(--secondary-font);
-  font-size : 18px;
+.photon-core-plain-text-regular-20 {
+  font-family : var(--open-sans-regular);
+  font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-16 {
-  font-family : var(--secondary-font);
+  font-family : var(--open-sans-regular);
   font-size : 16px;
   line-height: 24px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-14 {
-  font-family : var(--secondary-font);
+  font-family : var(--open-sans-regular);
   font-size : 14px;
   line-height: 20px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-12 {
-  font-family : var(--secondary-font);
+  font-family : var(--open-sans-regular);
   font-size : 12px;
   line-height: 16px;
   letter-spacing : 0em;
 }
-.photon-core-branded-text-bold-30 {
+.photon-core-branded-text-bold-32 {
   font-family : var(--primary-font);
-  font-size : 30px;
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-bold-28 {
+  font-family : var(--primary-font);
+  font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
@@ -444,9 +472,9 @@
   line-height: 32px;
   letter-spacing : 0em;
 }
-.photon-core-branded-text-bold-18 {
+.photon-core-branded-text-bold-20 {
   font-family : var(--primary-font);
-  font-size : 18px;
+  font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
@@ -468,9 +496,15 @@
   line-height: 16px;
   letter-spacing : 0em;
 }
-.photon-core-branded-text-regular-30 {
+.photon-core-branded-text-regular-32 {
   font-family : var(--secondary-font);
-  font-size : 30px;
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.photon-core-branded-text-regular-28 {
+  font-family : var(--secondary-font);
+  font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
@@ -480,9 +514,9 @@
   line-height: 32px;
   letter-spacing : 0em;
 }
-.photon-core-branded-text-regular-18 {
+.photon-core-branded-text-regular-20 {
   font-family : var(--secondary-font);
-  font-size : 18px;
+  font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
@@ -504,32 +538,110 @@
   line-height: 16px;
   letter-spacing : 0em;
 }
+.photon-core-branded-text-headline-57 {
+  font-family : var(--signify-relative-faux);
+  font-size : 57px;
+  line-height: 72px;
+  letter-spacing : -.25px;
+}
+.photon-core-branded-text-headline-45 {
+  font-family : var(--signify-relative-faux);
+  font-size : 45px;
+  line-height: 56px;
+  letter-spacing : -0.15000000596046448px;
+}
+.photon-core-branded-text-headline-36 {
+  font-family : var(--signify-relative-faux);
+  font-size : 36px;
+  line-height: 44px;
+  letter-spacing : -0.15000000596046448px;
+}
+.photon-core-branded-text-headline-32 {
+  font-family : var(--signify-relative-faux);
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : -.15px;
+}
+.photon-core-branded-text-headline-28 {
+  font-family : var(--signify-relative-faux);
+  font-size : 28px;
+  line-height: 36px;
+  letter-spacing : -0.15000000596046448px;
+}
+.photon-core-branded-text-headline-24 {
+  font-family : var(--signify-relative-faux);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : -.15px;
+}
+.photon-core-plain-text-medium-32 {
+  font-family : var(--open-sans-600);
+  font-size : 32px;
+  line-height: 40px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-28 {
+  font-family : var(--open-sans-600);
+  font-size : 28px;
+  line-height: 36px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-24 {
+  font-family : var(--open-sans-600);
+  font-size : 24px;
+  line-height: 32px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-20 {
+  font-family : var(--open-sans-600);
+  font-size : 20px;
+  line-height: 28px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-16 {
+  font-family : var(--open-sans-600);
+  font-size : 16px;
+  line-height: 24px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-14 {
+  font-family : var(--open-sans-600);
+  font-size : 14px;
+  line-height: 20px;
+  letter-spacing : 0em;
+}
+.photon-core-plain-text-medium-12 {
+  font-family : var(--open-sans-600);
+  font-size : 12px;
+  line-height: 16px;
+  letter-spacing : 0em;
+}
 
 /* Semantic & Component */
 
 .photon-components-buttons-main-action-touch-text {
-  @extend .photon-semantic-branded-actionable-large;
+  @extend .photon-semantic-body-text-large;
 }
 .photon-components-buttons-action-touch-text {
-  @extend .photon-semantic-branded-actionable-large;
+  @extend .photon-semantic-body-text-large;
 }
 .photon-components-buttons-neutral-touch-text {
-  @extend .photon-semantic-branded-actionable-large;
+  @extend .photon-semantic-body-text-large;
 }
 .photon-components-buttons-quiet-touch-text {
-  @extend .photon-semantic-branded-actionable-large;
+  @extend .photon-semantic-body-text-large;
 }
 .photon-components-buttons-main-action-pointer-text {
-  @extend .photon-semantic-branded-actionable-small;
+  @extend .photon-semantic-body-text-small;
 }
 .photon-components-buttons-action-pointer-text {
-  @extend .photon-semantic-branded-actionable-small;
+  @extend .photon-semantic-body-text-small;
 }
 .photon-components-buttons-neutral-pointer-text {
-  @extend .photon-semantic-branded-actionable-small;
+  @extend .photon-semantic-body-text-small;
 }
 .photon-components-buttons-quiet-pointer-text {
-  @extend .photon-semantic-branded-actionable-small;
+  @extend .photon-semantic-body-text-small;
 }
 .photon-components-input-touch-label {
   @extend .photon-semantic-labels;
@@ -538,7 +650,7 @@
   @extend .photon-semantic-body-text-large;
 }
 .photon-components-input-touch-helper {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-input-pointer-label {
   @extend .photon-semantic-labels;
@@ -547,7 +659,7 @@
   @extend .photon-semantic-body-text-small;
 }
 .photon-components-input-pointer-helper {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-controls-label-touch {
   @extend .photon-semantic-labels;
@@ -571,10 +683,10 @@
   @extend .photon-semantic-labels;
 }
 .photon-components-tooltip-description {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-tooltip-link {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-semantic-body-text-large {
   @extend .photon-core-plain-text-regular-16;
@@ -582,26 +694,23 @@
 .photon-semantic-body-text-small {
   @extend .photon-core-plain-text-regular-14;
 }
-.photon-semantic-caption {
-  @extend .photon-core-plain-text-regular-12;
+.photon-semantic-caption-small {
+  @extend .photon-core-plain-text-medium-12;
 }
 .photon-semantic-labels {
-  @extend .photon-core-plain-text-bold-12;
+  @extend .photon-core-plain-text-medium-12;
 }
 .photon-semantic-page-title-large {
-  @extend .photon-core-plain-text-bold-24;
+  @extend .photon-core-plain-text-bold-32;
 }
 .photon-semantic-page-title-small {
-  @extend .photon-core-plain-text-bold-18;
+  @extend .photon-core-plain-text-bold-24;
 }
 .photon-semantic-dialog-title {
-  @extend .photon-core-plain-text-bold-18;
-}
-.photon-semantic-footnotes {
-  @extend .photon-core-plain-text-regular-12;
+  @extend .photon-core-plain-text-bold-20;
 }
 .photon-semantic-disclaimer {
-  @extend .photon-semantic-caption;
+  @extend .photon-core-plain-text-regular-12;
 }
 .photon-semantic-card-title-large {
   @extend .photon-core-plain-text-bold-16;
@@ -609,16 +718,7 @@
 .photon-semantic-section-title-large {
   @extend .photon-core-plain-text-bold-16;
 }
-.photon-semantic-cell-header-large {
-  @extend .photon-core-plain-text-bold-16;
-}
 .photon-semantic-section-title-small {
-  @extend .photon-core-plain-text-bold-14;
-}
-.photon-semantic-cell-header-small {
-  @extend .photon-core-plain-text-bold-14;
-}
-.photon-semantic-cell-sublabel-small {
   @extend .photon-core-plain-text-bold-14;
 }
 .photon-semantic-card-title-small {
@@ -651,11 +751,11 @@
 .photon-components-tags-text {
   @extend .photon-semantic-body-text-small;
 }
-.photon-components-cells-label {
+.photon-components-cells-label-touch {
   @extend .photon-semantic-body-text-large;
 }
 .photon-components-cells-sublabel {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-cells-plain-text {
   @extend .photon-semantic-body-text-large;
@@ -663,8 +763,8 @@
 .photon-components-cells-table-header {
   @extend .photon-core-plain-text-regular-24;
 }
-.photon-components-cells-cell-header {
-  @extend .photon-semantic-cell-header-small;
+.photon-components-cells-cell-header-pointer {
+  @extend .photon-semantic-body-text-small-bold;
 }
 .photon-components-tabs-touch-text {
   @extend .photon-semantic-body-text-large;
@@ -673,22 +773,16 @@
   @extend .photon-semantic-body-text-small;
 }
 .photon-components-progress-tracker-step-number {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-progress-tracker-step-name {
   @extend .photon-semantic-body-text-small;
 }
 .photon-components-list-items-pointer-sublabel {
-  @extend .photon-semantic-caption;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-list-items-touch-sublabel {
-  @extend .photon-semantic-caption;
-}
-.photon-semantic-branded-actionable-large {
-  @extend .photon-core-branded-text-regular-16;
-}
-.photon-semantic-branded-actionable-small {
-  @extend .photon-core-branded-text-regular-14;
+  @extend .photon-semantic-caption-small;
 }
 .photon-components-stepper-text-touch {
   @extend .photon-semantic-body-text-large;
@@ -717,8 +811,32 @@
 .photon-components-expander-label-pointer {
   @extend .photon-semantic-body-text-small;
 }
-.photon-components-contextual-message-overlay-text {
+.photon-components-contextual-message-text-overlay {
   @extend .photon-semantic-body-text-small;
+}
+.photon-semantic-body-text-large-bold {
+  @extend .photon-core-plain-text-bold-16;
+}
+.photon-semantic-caption-large {
+  @extend .photon-core-plain-text-regular-14;
+}
+.photon-semantic-display-branded-large {
+  @extend .photon-core-h-1;
+}
+.photon-semantic-display-branded-small {
+  @extend .photon-core-h-3;
+}
+.photon-semantic-page-title-branded-large {
+  @extend .photon-core-h-4;
+}
+.photon-semantic-page-title-branded-small {
+  @extend .photon-core-h-6;
+}
+.photon-components-cells-label-pointer {
+  @extend .photon-semantic-body-text-small;
+}
+.photon-components-cells-cell-header-touch {
+  @extend .photon-semantic-body-text-large-bold;
 }
 
 /* Shadows */
