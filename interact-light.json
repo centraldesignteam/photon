@@ -741,658 +741,1713 @@
       "value" : "#3c3c41"
     }
   ],
-/* Semantic Colors & Component Colors */
-:root {
-  --photon-semantic-primary: var(photon-core-primary-100-primary);
-  --photon-semantic-on-primary: var(photon-core-primary-00-primary);
-  --photon-semantic-secondary: var(photon-core-secondary-140-secondary);
-  --photon-semantic-secondary-inactive: var(photon-core-secondary-80-secondary);
-  --photon-semantic-on-secondary: var(photon-core-secondary-00-secondary);
-  --photon-semantic-tertiary: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-on-tertiary: var(photon-core-neutral-00-neutral);
-  --photon-semantic-background: var(photon-core-secondary-05-secondary);
-  --photon-semantic-on-background: var(photon-core-neutral-140-neutral);
-  --photon-semantic-surface: var(photon-core-neutral-00-neutral);
-  --photon-semantic-surface-hover: var(photon-core-neutral-10-neutral);
-  --photon-semantic-on-surface: var(photon-core-neutral-140-neutral);
-  --photon-semantic-error: var(photon-core-red-100-red);
-  --photon-semantic-on-error: var(photon-core-neutral-00-neutral);
-  --photon-semantic-warning: var(photon-core-yellow-80-yellow);
-  --photon-semantic-warning-light: var(photon-core-yellow-60-yellow);
-  --photon-semantic-on-warning: var(photon-core-yellow-00-yellow);
-  --photon-semantic-on-warning-light: var(photon-core-yellow-160-yellow);
-  --photon-semantic-success: var(photon-core-green-80-green);
-  --photon-semantic-on-success: var(photon-core-neutral-00-neutral);
-  --photon-semantic-informative: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-on-informative: var(photon-core-neutral-00-neutral);
-  --photon-semantic-scrim: var(photon-core-transparent-60-of-180-neutral);
-  --photon-semantic-scrollbar: var(photon-core-neutral-20-neutral);
-  --photon-semantic-divider: var(photon-core-neutral-10-neutral);
-  --photon-semantic-text-default: var(photon-core-neutral-140-neutral);
-  --photon-semantic-text-secondary: var(photon-core-neutral-120-neutral);
-  --photon-semantic-text-placeholder: var(photon-core-neutral-80-neutral);
-  --photon-semantic-text-disabled: var(photon-core-neutral-40-neutral);
-  --photon-semantic-text-link-states-default: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-text-link-states-hover: var(photon-core-tertiary-100-tertiary);
-  --photon-semantic-text-link-states-focused: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-text-link-states-pressed: var(photon-core-tertiary-140-tertiary);
-  --photon-semantic-text-link-states-disabled: var(photon-core-tertiary-20-tertiary);
-  --photon-semantic-icons-default: var(photon-core-neutral-80-neutral);
-  --photon-semantic-icons-actionable: var(photon-core-neutral-140-neutral);
-  --photon-semantic-icons-selected: var(photon-core-primary-100-primary);
-  --photon-semantic-icons-informative: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-data-visualization-magenta-main: var(photon-core-data-visualization-magenta-100-magenta);
-  --photon-semantic-data-visualization-purple-main: var(photon-core-data-visualization-purple-100-purple);
-  --photon-semantic-data-visualization-ink-blue-main: var(photon-core-data-visualization-ink-blue-100-ink-blue);
-  --photon-semantic-data-visualization-light-blue-main: var(photon-core-data-visualization-light-blue-100-light-blue);
-  --photon-semantic-data-visualization-aqua-main: var(photon-core-data-visualization-aqua-100-aqua);
-  --photon-semantic-data-visualization-lime-green-main: var(photon-core-data-visualization-lime-green-100-lime-green);
-  --photon-semantic-data-visualization-magenta-second: var(photon-core-data-visualization-magenta-140-magenta);
-  --photon-semantic-data-visualization-purple-second: var(photon-core-data-visualization-purple-140-purple);
-  --photon-semantic-data-visualization-ink-blue-second: var(photon-core-data-visualization-ink-blue-140-ink-blue);
-  --photon-semantic-data-visualization-light-blue-second: var(photon-core-data-visualization-light-blue-140-light-blue);
-  --photon-semantic-data-visualization-aqua-second: var(photon-core-data-visualization-aqua-140-aqua);
-  --photon-semantic-data-visualization-lime-green-second: var(photon-core-data-visualization-lime-green-140-lime-green);
-  --photon-semantic-data-visualization-magenta-third: var(photon-core-data-visualization-magenta-60-magenta);
-  --photon-semantic-data-visualization-purple-third: var(photon-core-data-visualization-purple-60-purple);
-  --photon-semantic-data-visualization-ink-blue-third: var(photon-core-data-visualization-ink-blue-60-ink-blue);
-  --photon-semantic-data-visualization-light-blue-third: var(photon-core-data-visualization-light-blue-60-light-blue);
-  --photon-semantic-data-visualization-aqua-third: var(photon-core-data-visualization-aqua-60-aqua);
-  --photon-semantic-data-visualization-lime-green-third: var(photon-core-data-visualization-lime-green-60-lime-green);
-  --photon-semantic-data-visualization-magenta-fourth: var(photon-core-data-visualization-magenta-20-magenta);
-  --photon-semantic-data-visualization-purple-fourth: var(photon-core-data-visualization-purple-20-purple);
-  --photon-semantic-data-visualization-ink-blue-fourth: var(photon-core-data-visualization-ink-blue-20-ink-blue);
-  --photon-semantic-data-visualization-light-blue-fourth: var(photon-core-data-visualization-light-blue-20-light-blue);
-  --photon-semantic-data-visualization-aqua-fourth: var(photon-core-data-visualization-aqua-20-aqua);
-  --photon-semantic-data-visualization-lime-green-fourth: var(photon-core-data-visualization-lime-green-20-lime-green);
-  --photon-semantic-contrast-colors-high: var(photon-core-neutral-00-neutral);
-  --photon-semantic-contrast-colors-medium: var(photon-core-secondary-05-secondary);
-  --photon-semantic-contrast-colors-low: var(photon-core-neutral-10-neutral);
-  --photon-semantic-contrast-colors-lowest-contrast: var(photon-core-neutral-40-neutral);
-  --photon-semantic-actionable-main-action-background: var(photon-core-primary-100-primary);
-  --photon-semantic-actionable-main-action-background-hover: var(photon-core-primary-80-primary);
-  --photon-semantic-actionable-main-action-background-pressed: var(photon-core-primary-120-primary);
-  --photon-semantic-actionable-main-action-on-main-action: var(photon-core-neutral-00-neutral);
-  --photon-semantic-actionable-action-background: var(photon-core-secondary-140-secondary);
-  --photon-semantic-actionable-action-background-hover: var(photon-core-secondary-160-secondary);
-  --photon-semantic-actionable-action-background-pressed: var(photon-core-secondary-160-secondary);
-  --photon-semantic-actionable-action-on-action: var(photon-core-neutral-00-neutral);
-  --photon-semantic-actionable-neutral-background: var(photon-core-transparent-transparent);
-  --photon-semantic-actionable-neutral-background-hover: var(photon-core-secondary-20-secondary);
-  --photon-semantic-actionable-neutral-background-pressed: var(photon-core-secondary-60-secondary);
-  --photon-semantic-actionable-neutral-on-neutral: var(photon-core-neutral-140-neutral);
-  --photon-semantic-actionable-quiet-background: var(photon-core-transparent-transparent);
-  --photon-semantic-actionable-quiet-background-hover: var(photon-core-secondary-20-secondary);
-  --photon-semantic-actionable-quiet-background-pressed: var(photon-core-secondary-40-secondary);
-  --photon-semantic-actionable-quiet-on-quiet: var(photon-core-neutral-140-neutral);
-  --photon-semantic-actionable-neutral-border: var(photon-core-secondary-140-secondary);
-  --photon-semantic-actionable-primary-background: var(photon-core-primary-100-primary);
-  --photon-semantic-actionable-primary-background-hover: var(photon-core-primary-80-primary);
-  --photon-semantic-actionable-primary-background-pressed: var(photon-core-primary-120-primary);
-  --photon-semantic-actionable-primary-on-primary: var(photon-core-neutral-00-neutral);
-  --photon-semantic-actionable-off-background: var(photon-semantic-contrast-colors-low);
-  --photon-semantic-border-default: var(photon-core-secondary-140-secondary);
-  --photon-semantic-border-no-border: var(photon-core-transparent-transparent);
-  --photon-semantic-border-error: var(photon-core-red-100-red);
-  --photon-semantic-border-error-focused: var(photon-core-red-120-red);
-  --photon-semantic-border-focused: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-border-focused-around-primary: var(photon-core-secondary-140-secondary);
-  --photon-semantic-border-knob: var(photon-core-transparent-4-of-200-neutral);
-  --photon-semantic-border-low-contrast: var(photon-core-neutral-60-neutral);
-  --photon-semantic-border-medium-contrast: var(photon-core-neutral-80-neutral);
-  --photon-semantic-border-high-contrast: var(photon-core-neutral-80-neutral);
-  --photon-semantic-border-static-00-neutral: var(photon-core-neutral-00-neutral);
-  --photon-semantic-border-static-05-neutral: var(photon-core-neutral-05-neutral);
-  --photon-semantic-border-static-120-neutral: var(photon-core-neutral-160-neutral);
-  --photon-semantic-border-static-160-neutral: var(photon-core-neutral-180-neutral);
-  --photon-semantic-border-error-hover: var(photon-core-red-120-red);
-  --photon-semantic-halo-background-on: var(photon-core-transparent-12-of-primary);
-  --photon-semantic-halo-background-on-pressed: var(photon-core-transparent-20-of-primary);
-  --photon-semantic-halo-border-on-focussed: var(photon-core-primary-100-primary);
-  --photon-semantic-halo-background-off: var(photon-core-transparent-12-of-neutral);
-  --photon-semantic-halo-background-off-pressed: var(photon-core-transparent-20-of-neutral);
-  --photon-semantic-halo-border-off-focussed: var(photon-core-tertiary-120-tertiary);
-  --photon-semantic-track-background: var(photon-core-transparent-12-of-neutral);
-  --photon-semantic-track-foreground-primary: var(photon-core-primary-100-primary);
-  --photon-semantic-track-foreground-secondary: var(photon-core-secondary-140-secondary);
-  --photon-semantic-alerts-high: var(photon-core-red-100-red);
-  --photon-semantic-alerts-on-high: var(photon-core-neutral-00-neutral);
-  --photon-semantic-alerts-medium: var(photon-core-yellow-60-yellow);
-  --photon-semantic-alerts-on-medium: var(photon-core-neutral-140-neutral);
-  --photon-semantic-logos-light: var(photon-core-logos-white);
-  --photon-semantic-logos-gray: var(photon-core-logos-gray);
-  --photon-semantic-logos-dark: var(photon-core-logos-dark);
-  --photon-semantic-logos-coral: var(photon-core-logos-coral);
-  --photon-semantic-logos-signify: var(photon-core-logos-signify);
-}
-,
-  "Gradients" : [
+  "Semantic & Components colors" : [
     {
-      "name" : "photon-core-logos-signify",
-      "value" : "linear-gradient(61.31385242626061deg, #00e487 58.72%,#1ecbd0 100.00%)"
+    "name":"photon-semantic-primary",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-secondary",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-semantic-tertiary",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-surface",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-on-primary",
+    "value":"photon-core-primary-00-primary"
+
+    },
+    {
+    "name":"photon-semantic-on-secondary",
+    "value":"photon-core-secondary-00-secondary"
+
+    },
+    {
+    "name":"photon-semantic-on-tertiary",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-on-background",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-on-surface",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-on-error",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-error",
+    "value":"photon-core-red-100-red"
+
+    },
+    {
+    "name":"photon-semantic-warning",
+    "value":"photon-core-yellow-80-yellow"
+
+    },
+    {
+    "name":"photon-semantic-success",
+    "value":"photon-core-green-80-green"
+
+    },
+    {
+    "name":"photon-semantic-text-default",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-text-secondary",
+    "value":"photon-core-neutral-120-neutral"
+
+    },
+    {
+    "name":"photon-semantic-text-placeholder",
+    "value":"photon-core-neutral-80-neutral"
+
+    },
+    {
+    "name":"photon-semantic-text-disabled",
+    "value":"photon-core-neutral-40-neutral"
+
+    },
+    {
+    "name":"photon-semantic-text-link-states-default",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-text-link-states-hover",
+    "value":"photon-core-tertiary-100-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-text-link-states-focused",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-text-link-states-pressed",
+    "value":"photon-core-tertiary-140-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-text-link-states-disabled",
+    "value":"photon-core-tertiary-20-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-icons-default",
+    "value":"photon-core-neutral-80-neutral"
+
+    },
+    {
+    "name":"photon-semantic-icons-actionable",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-icons-selected",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-icons-informative",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-background-hover",
+    "value":"photon-semantic-actionable-primary-background-hover"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-background-focused",
+    "value":"photon-semantic-actionable-primary-background"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-background-pressed",
+    "value":"photon-semantic-actionable-primary-background-pressed"
+
+    },
+    {
+    "name":"photon-components-buttons-action-background-default",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-buttons-action-background-hover",
+    "value":"photon-semantic-actionable-action-background-hover"
+
+    },
+    {
+    "name":"photon-components-buttons-action-background-focused",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-buttons-action-background-pressed",
+    "value":"photon-semantic-actionable-action-background-pressed"
+
+    },
+    {
+    "name":"photon-components-buttons-action-background-disabled",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-background-default",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-background-hover",
+    "value":"photon-semantic-actionable-neutral-background-hover"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-background-focused",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-background-pressed",
+    "value":"photon-semantic-actionable-neutral-background-pressed"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-background-disabled",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-background-default",
+    "value":"photon-semantic-actionable-quiet-background"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-background-hover",
+    "value":"photon-semantic-actionable-quiet-background-hover"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-background-focused",
+    "value":"photon-semantic-actionable-quiet-background"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-background-pressed",
+    "value":"photon-semantic-actionable-quiet-background-pressed"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-background-disabled",
+    "value":"photon-semantic-actionable-quiet-background"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-border-default",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-border-hover",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-border-focused",
+    "value":"photon-semantic-border-focused-around-primary"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-border-pressed",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-border-disabled",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-action-border-default",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-action-border-pressed",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-action-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-buttons-action-border-disabled",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-action-border-hover",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-border-default",
+    "value":"photon-semantic-border-default"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-border-hover",
+    "value":"photon-semantic-border-default"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-border-pressed",
+    "value":"photon-semantic-border-default"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-border-disabled",
+    "value":"photon-semantic-border-default"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-border-default",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-border-hover",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-border-pressed",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-border-disabled",
+    "value":"photon-semantic-border-no-border"
+
+    },
+    {
+    "name":"photon-components-input-background-default",
+    "value":"photon-semantic-contrast-colors-medium"
+
+    },
+    {
+    "name":"photon-components-input-background-hover",
+    "value":"photon-semantic-contrast-colors-medium"
+
+    },
+    {
+    "name":"photon-components-input-background-focused",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-input-background-filled",
+    "value":"photon-semantic-contrast-colors-medium"
+
+    },
+    {
+    "name":"photon-components-input-border-default",
+    "value":"photon-semantic-border-low-contrast"
+
+    },
+    {
+    "name":"photon-components-input-border-hover",
+    "value":"photon-semantic-border-high-contrast"
+
+    },
+    {
+    "name":"photon-components-input-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-input-border-filled",
+    "value":"photon-semantic-border-low-contrast"
+
+    },
+    {
+    "name":"photon-components-input-border-error",
+    "value":"photon-semantic-border-error"
+
+    },
+    {
+    "name":"photon-components-input-border-error-focused",
+    "value":"photon-semantic-border-error-focused"
+
+    },
+    {
+    "name":"photon-components-controls-main-action-background",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-controls-halo-background",
+    "value":"photon-semantic-halo-background-on"
+
+    },
+    {
+    "name":"photon-components-controls-halo-border-focussed",
+    "value":"photon-semantic-halo-border-on-focussed"
+
+    },
+    {
+    "name":"photon-components-controls-action-background",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-controls-off-background",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-controls-off-border",
+    "value":"photon-semantic-border-medium-contrast"
+
+    },
+    {
+    "name":"photon-components-controls-halo-background-off",
+    "value":"photon-semantic-halo-background-off"
+
+    },
+    {
+    "name":"photon-components-controls-halo-border-off-focussed",
+    "value":"photon-semantic-halo-border-off-focussed"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-text-icon",
+    "value":"photon-semantic-actionable-primary-on-primary"
+
+    },
+    {
+    "name":"photon-components-buttons-action-text-icon",
+    "value":"photon-semantic-actionable-action-on-action"
+
+    },
+    {
+    "name":"photon-components-buttons-neutral-text-icon",
+    "value":"photon-semantic-actionable-neutral-on-neutral"
+
+    },
+    {
+    "name":"photon-components-buttons-quiet-text-icon",
+    "value":"photon-semantic-actionable-quiet-on-quiet"
+
+    },
+    {
+    "name":"photon-components-controls-main-action-icons",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-controls-action-icons",
+    "value":"photon-semantic-actionable-action-on-action"
+
+    },
+    {
+    "name":"photon-components-input-text-label",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-input-text-helper",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-input-text-default",
+    "value":"photon-semantic-text-placeholder"
+
+    },
+    {
+    "name":"photon-components-input-text-hover",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-input-text-user-input",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-input-icons-actionable",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-input-icons-error",
+    "value":"photon-semantic-error"
+
+    },
+    {
+    "name":"photon-components-input-text-pointer-insertion",
+    "value":"photon-semantic-tertiary"
+
+    },
+    {
+    "name":"photon-components-input-icons-label",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-controls-knob-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-controls-slider-background",
+    "value":"photon-semantic-track-background"
+
+    },
+    {
+    "name":"photon-components-controls-slider-foreground-primary",
+    "value":"photon-semantic-track-foreground-primary"
+
+    },
+    {
+    "name":"photon-components-controls-slider-foreground-secondary",
+    "value":"photon-semantic-track-foreground-secondary"
+
+    },
+    {
+    "name":"photon-components-controls-slider-text-label",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-completed",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-hover",
+    "value":"photon-semantic-actionable-main-action-background-hover"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-pressed",
+    "value":"photon-semantic-actionable-main-action-background-pressed"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-inactive",
+    "value":"photon-semantic-secondary-inactive"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-disabled",
+    "value":"photon-semantic-secondary-inactive"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-background-miscellaneous",
+    "value":"photon-semantic-secondary"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-default",
+    "value":"photon-semantic-contrast-colors-low"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-hover",
+    "value":"photon-semantic-contrast-colors-medium"
+
+    },
+    {
+    "name":"photon-semantic-actionable-main-action-background",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-main-action-background-hover",
+    "value":"photon-core-primary-80-primary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-main-action-background-pressed",
+    "value":"photon-core-primary-120-primary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-action-background",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-action-background-hover",
+    "value":"photon-core-secondary-160-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-action-background-pressed",
+    "value":"photon-core-secondary-160-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-neutral-background",
+    "value":"photon-core-transparent-transparent"
+
+    },
+    {
+    "name":"photon-semantic-actionable-neutral-background-hover",
+    "value":"photon-core-secondary-20-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-neutral-background-pressed",
+    "value":"photon-core-secondary-60-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-quiet-background",
+    "value":"photon-core-transparent-transparent"
+
+    },
+    {
+    "name":"photon-semantic-actionable-quiet-background-hover",
+    "value":"photon-core-secondary-20-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-quiet-background-pressed",
+    "value":"photon-core-secondary-40-secondary"
+
+    },
+    {
+    "name":"photon-semantic-border-focused-around-primary",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-neutral-border",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-semantic-border-focused",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-background-default",
+    "value":"photon-semantic-actionable-primary-background"
+
+    },
+    {
+    "name":"photon-semantic-border-no-border",
+    "value":"photon-core-transparent-transparent"
+
+    },
+    {
+    "name":"photon-components-buttons-main-action-background-disabled",
+    "value":"photon-semantic-actionable-primary-background"
+
+    },
+    {
+    "name":"photon-semantic-border-default",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-semantic-border-error",
+    "value":"photon-core-red-100-red"
+
+    },
+    {
+    "name":"photon-semantic-border-error-focused",
+    "value":"photon-core-red-120-red"
+
+    },
+    {
+    "name":"photon-semantic-halo-background-on",
+    "value":"photon-core-transparent-12-of-primary"
+
+    },
+    {
+    "name":"photon-semantic-halo-border-on-focussed",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-halo-background-off",
+    "value":"photon-core-transparent-12-of-neutral"
+
+    },
+    {
+    "name":"photon-semantic-halo-background-on-pressed",
+    "value":"photon-core-transparent-20-of-primary"
+
+    },
+    {
+    "name":"photon-semantic-halo-background-off-pressed",
+    "value":"photon-core-transparent-20-of-neutral"
+
+    },
+    {
+    "name":"photon-semantic-track-background",
+    "value":"photon-core-transparent-12-of-neutral"
+
+    },
+    {
+    "name":"photon-semantic-track-foreground-primary",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-track-foreground-secondary",
+    "value":"photon-core-secondary-140-secondary"
+
+    },
+    {
+    "name":"photon-components-controls-halo-background-off-pressed",
+    "value":"photon-semantic-halo-background-off-pressed"
+
+    },
+    {
+    "name":"photon-components-controls-halo-background-pressed",
+    "value":"photon-semantic-halo-background-on-pressed"
+
+    },
+    {
+    "name":"photon-components-controls-toggles-background",
+    "value":"photon-semantic-track-background"
+
+    },
+    {
+    "name":"photon-components-progress-indicator-background",
+    "value":"photon-semantic-track-background"
+
+    },
+    {
+    "name":"photon-components-progress-indicator-foreground",
+    "value":"photon-semantic-track-foreground-primary"
+
+    },
+    {
+    "name":"photon-semantic-text-fields-border-default",
+    "value":"photon-core-neutral-20-neutral"
+
+    },
+    {
+    "name":"photon-semantic-text-fields-border-hover",
+    "value":"photon-core-neutral-60-neutral"
+
+    },
+    {
+    "name":"photon-semantic-scrim",
+    "value":"photon-core-transparent-60-of-180-neutral"
+
+    },
+    {
+    "name":"photon-semantic-background",
+    "value":"photon-core-secondary-05-secondary"
+
+    },
+    {
+    "name":"photon-semantic-secondary-inactive",
+    "value":"photon-core-secondary-80-secondary"
+
+    },
+    {
+    "name":"photon-semantic-scrollbar",
+    "value":"photon-core-neutral-20-neutral"
+
+    },
+    {
+    "name":"photon-semantic-divider",
+    "value":"photon-core-neutral-10-neutral"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text-hover",
+    "value":"photon-semantic-text-link-states-hover"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text-focused",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text-pressed",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text-last-item",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-text-disable",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-magenta-main",
+    "value":"photon-core-data-visualization-magenta-100-magenta"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-magenta-second",
+    "value":"photon-core-data-visualization-magenta-140-magenta"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-magenta-third",
+    "value":"photon-core-data-visualization-magenta-60-magenta"
+
+    },
+    {
+    "name":"photon-semantic-contrast-colors-high",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-contrast-colors-medium",
+    "value":"photon-core-secondary-05-secondary"
+
+    },
+    {
+    "name":"photon-semantic-contrast-colors-low",
+    "value":"photon-core-neutral-10-neutral"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-purple-main",
+    "value":"photon-core-data-visualization-purple-100-purple"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-ink-blue-main",
+    "value":"photon-core-data-visualization-ink-blue-100-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-light-blue-main",
+    "value":"photon-core-data-visualization-light-blue-100-light-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-aqua-main",
+    "value":"photon-core-data-visualization-aqua-100-aqua"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-lime-green-main",
+    "value":"photon-core-data-visualization-lime-green-100-lime-green"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-purple-second",
+    "value":"photon-core-data-visualization-purple-140-purple"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-ink-blue-second",
+    "value":"photon-core-data-visualization-ink-blue-140-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-light-blue-second",
+    "value":"photon-core-data-visualization-light-blue-140-light-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-aqua-second",
+    "value":"photon-core-data-visualization-aqua-140-aqua"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-lime-green-second",
+    "value":"photon-core-data-visualization-lime-green-140-lime-green"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-purple-third",
+    "value":"photon-core-data-visualization-purple-60-purple"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-ink-blue-third",
+    "value":"photon-core-data-visualization-ink-blue-60-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-light-blue-third",
+    "value":"photon-core-data-visualization-light-blue-60-light-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-aqua-third",
+    "value":"photon-core-data-visualization-aqua-60-aqua"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-lime-green-third",
+    "value":"photon-core-data-visualization-lime-green-60-lime-green"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-magenta-fourth",
+    "value":"photon-core-data-visualization-magenta-20-magenta"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-purple-fourth",
+    "value":"photon-core-data-visualization-purple-20-purple"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-ink-blue-fourth",
+    "value":"photon-core-data-visualization-ink-blue-20-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-light-blue-fourth",
+    "value":"photon-core-data-visualization-light-blue-20-light-blue"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-aqua-fourth",
+    "value":"photon-core-data-visualization-aqua-20-aqua"
+
+    },
+    {
+    "name":"photon-semantic-data-visualization-lime-green-fourth",
+    "value":"photon-core-data-visualization-lime-green-20-lime-green"
+
+    },
+    {
+    "name":"photon-semantic-contrast-colors-lowest-contrast",
+    "value":"photon-core-neutral-40-neutral"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-focused",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-pressed",
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-disabled",
+    "value":"photon-semantic-contrast-colors-low"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-default",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-hover",
+    "value":"photon-semantic-actionable-neutral-background-hover"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-focussed",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-pressed",
+    "value":"photon-semantic-actionable-neutral-background-pressed"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-selected",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-today-default",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-today-hover",
+    "value":"photon-semantic-actionable-main-action-background-hover"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-today-focussed",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-today-pressed",
+    "value":"photon-semantic-actionable-main-action-background-pressed"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-today-selected",
+    "value":"photon-semantic-actionable-main-action-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-unavailbe",
+    "value":"photon-semantic-actionable-neutral-background"
+
+    },
+    {
+    "name":"photon-components-date-picker-background-in-between-selected",
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
+
+    },
+    {
+    "name":"photon-components-date-picker-border-focussed-default",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-date-picker-border-focussed-today",
+    "value":"photon-semantic-border-focused-around-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-default",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-hover",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-selected",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-pressed",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-focussed",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-today-default",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-today-hover",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-today-focussed",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-today-pressed",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-today-selected",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-unavailable-default",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-unavailable-today",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-in-between-default",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-text-in-between-today",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-default",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-hover",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-focussed",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-pressed",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-selected",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-unavailable-date",
+    "value":"photon-semantic-secondary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-in-between-date",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-default-today",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-hover-today",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-focussed-today",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-pressed-today",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-date-picker-event-date-available-selected-today",
+    "value":"photon-semantic-actionable-main-action-on-main-action"
+
+    },
+    {
+    "name":"photon-components-tags-activated-background-default",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-tags-activated-background-hover",
+    "value":"photon-semantic-actionable-action-background-hover"
+
+    },
+    {
+    "name":"photon-components-tags-activated-background-focused",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-components-tags-activated-background-pressed",
+    "value":"photon-semantic-actionable-action-background-pressed"
+
+    },
+    {
+    "name":"photon-components-tags-activated-background-disabled",
+    "value":"photon-semantic-actionable-action-background"
+
+    },
+    {
+    "name":"photon-semantic-actionable-primary-background",
+    "value":"photon-core-primary-100-primary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-primary-background-hover",
+    "value":"photon-core-primary-80-primary"
+
+    },
+    {
+    "name":"photon-semantic-actionable-primary-background-pressed",
+    "value":"photon-core-primary-120-primary"
+
+    },
+    {
+    "name":"photon-components-tab-line",
+    "value":"photon-semantic-primary"
+
+    },
+    {
+    "name":"photon-components-tab-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-tags-primary-icon-default",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-tags-activated-icon-default",
+    "value":"photon-semantic-actionable-action-on-action"
+
+    },
+    {
+    "name":"photon-components-tags-primary-icon-close",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-tags-primary-text",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-tags-activated-text",
+    "value":"photon-semantic-actionable-action-on-action"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-delete-hover",
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
+
+    },
+    {
+    "name":"photon-components-tags-primary-background-delete-pressed",
+    "value":"photon-components-buttons-neutral-background-pressed"
+
+    },
+    {
+    "name":"photon-semantic-halo-border-off-focussed",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-border-knob",
+    "value":"photon-core-transparent-4-of-200-neutral"
+
+    },
+    {
+    "name":"photon-components-controls-knob-border",
+    "value":"photon-semantic-border-knob"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-icon",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-semantic-actionable-main-action-on-main-action",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-actionable-action-on-action",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-actionable-neutral-on-neutral",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-actionable-quiet-on-quiet",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-actionable-primary-on-primary",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-actionable-off-background",
+    "value":"photon-semantic-contrast-colors-low"
+
+    },
+    {
+    "name":"photon-components-buttons-off-background-default",
+    "value":"photon-semantic-actionable-off-background"
+
+    },
+    {
+    "name":"photon-components-buttons-off-text-icon",
+    "value":"photon-semantic-actionable-neutral-on-neutral"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-text-icon",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-step-default",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-step-completed",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-progress-tracker-step-inactive",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-input-border-combobox-separator",
+    "value":"photon-semantic-contrast-colors-lowest-contrast"
+
+    },
+    {
+    "name":"photon-components-tags-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-tab-icon",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-tab-text",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-tab-text-hover-active",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-semantic-border-low-contrast",
+    "value":"photon-core-neutral-60-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-medium-contrast",
+    "value":"photon-core-neutral-80-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-high-contrast",
+    "value":"photon-core-neutral-80-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-background",
+    "value":"photon-semantic-alerts-medium"
+
+    },
+    {
+    "name":"photon-semantic-on-warning",
+    "value":"photon-core-yellow-00-yellow"
+
+    },
+    {
+    "name":"photon-semantic-on-success",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-number-dot",
+    "value":"photon-core-neutral-100-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border-white",
+    "value":"photon-semantic-border-static-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-static-00-neutral",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-static-05-neutral",
+    "value":"photon-core-neutral-05-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-static-120-neutral",
+    "value":"photon-core-neutral-160-neutral"
+
+    },
+    {
+    "name":"photon-semantic-border-static-160-neutral",
+    "value":"photon-core-neutral-180-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border-light",
+    "value":"photon-semantic-border-static-05-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border-dark",
+    "value":"photon-semantic-border-static-120-neutral"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border-darkest",
+    "value":"photon-semantic-border-static-160-neutral"
+
+    },
+    {
+    "name":"photon-semantic-logos-light",
+    "value":"photon-core-logos-white"
+
+    },
+    {
+    "name":"photon-semantic-logos-gray",
+    "value":"photon-core-logos-gray"
+
+    },
+    {
+    "name":"photon-semantic-logos-dark",
+    "value":"photon-core-logos-dark"
+
+    },
+    {
+    "name":"photon-semantic-logos-coral",
+    "value":"photon-core-logos-coral"
+
+    },
+    {
+    "name":"photon-semantic-logos-signify",
+    "value":"photon-core-logos-signify"
+
+    },
+    {
+    "name":"photon-semantic-surface-hover",
+    "value":"photon-core-neutral-10-neutral"
+
+    },
+    {
+    "name":"photon-semantic-informative",
+    "value":"photon-core-tertiary-120-tertiary"
+
+    },
+    {
+    "name":"photon-semantic-on-informative",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-alerts-high",
+    "value":"photon-core-red-100-red"
+
+    },
+    {
+    "name":"photon-semantic-alerts-medium",
+    "value":"photon-core-yellow-60-yellow"
+
+    },
+    {
+    "name":"photon-semantic-alerts-on-high",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-alerts-on-medium",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-warning-light",
+    "value":"photon-core-yellow-60-yellow"
+
+    },
+    {
+    "name":"photon-components-stepper-border-default",
+    "value":"photon-semantic-actionable-neutral-border"
+
+    },
+    {
+    "name":"photon-components-stepper-border-hover",
+    "value":"photon-semantic-actionable-neutral-border"
+
+    },
+    {
+    "name":"photon-components-stepper-border-focused",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-stepper-border-pressed",
+    "value":"photon-semantic-actionable-neutral-border"
+
+    },
+    {
+    "name":"photon-components-stepper-border-disabled",
+    "value":"photon-semantic-actionable-neutral-border"
+
+    },
+    {
+    "name":"photon-components-stepper-background-hover",
+    "value":"photon-semantic-actionable-neutral-background-hover"
+
+    },
+    {
+    "name":"photon-components-stepper-background-pressed",
+    "value":"photon-semantic-actionable-neutral-background-pressed"
+
+    },
+    {
+    "name":"photon-components-stepper-text",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-stepper-icon",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-input-background-default-on-medium",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-input-background-hover-on-medium",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-input-background-focused-on-medium",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-input-background-filled-on-medium",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-semantic-border-error-hover",
+    "value":"photon-core-red-120-red"
+
+    },
+    {
+    "name":"photon-components-input-border-error-hover",
+    "value":"photon-semantic-border-error-hover"
+
+    },
+    {
+    "name":"photon-components-snackbar-text",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-snackbar-surface",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-background-success",
+    "value":"photon-semantic-success"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-icon-on-success",
+    "value":"photon-semantic-on-success"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-background-warning",
+    "value":"photon-semantic-warning"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-icon-on-warning",
+    "value":"photon-semantic-on-warning"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-background-informative",
+    "value":"photon-semantic-informative"
+
+    },
+    {
+    "name":"photon-components-snackbar-sidebar-icon-on-informative",
+    "value":"photon-semantic-on-informative"
+
+    },
+    {
+    "name":"photon-components-system-message-background",
+    "value":"photon-core-secondary-80-secondary"
+
+    },
+    {
+    "name":"photon-components-system-message-text-icon",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-contextual-message-background",
+    "value":"photon-semantic-contrast-colors-medium"
+
+    },
+    {
+    "name":"photon-components-contextual-message-icon-info",
+    "value":"photon-semantic-icons-informative"
+
+    },
+    {
+    "name":"photon-components-contextual-message-text",
+    "value":"photon-semantic-text-secondary"
+
+    },
+    {
+    "name":"photon-components-contextual-message-border-info",
+    "value":"photon-semantic-informative"
+
+    },
+    {
+    "name":"photon-components-contextual-message-border-error",
+    "value":"photon-semantic-border-error"
+
+    },
+    {
+    "name":"photon-components-dialogs-text",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-dialogs-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-expander-icon",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-expander-label",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-expander-divider",
+    "value":"photon-semantic-divider"
+
+    },
+    {
+    "name":"photon-components-expander-chevron",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-expander-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-contextual-message-icon-error",
+    "value":"photon-semantic-error"
+
+    },
+    {
+    "name":"photon-components-contextual-message-text-link",
+    "value":"photon-semantic-text-link-states-default"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-background-default",
+    "value":"photon-semantic-contrast-colors-high"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-background-hover",
+    "value":"photon-semantic-actionable-neutral-background-hover"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-background-pressed",
+    "value":"photon-semantic-actionable-neutral-background-pressed"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-border-focussed",
+    "value":"photon-semantic-border-focused"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-icon",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-contextual-message-overlay-text",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-semantic-on-warning-light",
+    "value":"photon-core-yellow-160-yellow"
+
     }
   ],
-/* fonts */
-:root {        
---primary-font: "Roboto";
---secondary-font: "Roboto";
---signify-raisonne-demi-bold: "Signify Raisonne";
---signify-relative-faux: "Signify Relative";
---signify-relative-book: "Signify Relative";
---signify-relative-bold: "Signify Relative";
---open-sans-700: "Open Sans";
---roboto-medium: "Roboto-Medium";
---inter-regular: "Inter";
---roboto-500: "Roboto";
---open-sans-600: "Open Sans";
---open-sans-regular: "Open Sans";
-}
-/* text styles*/
-.photon-core-h-1 {
-  font-family : signify-relative-faux;
-  font-size : 57px;
-  line-height: 72px;
-  letter-spacing : -0.25px;
-}
-.photon-core-h-2 {
-  font-family : signify-relative-faux;
-  font-size : 45px;
-  line-height: 68px;
-  letter-spacing : -.15px;
-}
-.photon-core-h-3 {
-  font-family : signify-relative-faux;
-  font-size : 36px;
-  line-height: 44px;
-  letter-spacing : -.15px;
-}
-.photon-core-h-4 {
-  font-family : signify-relative-faux;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : -.15px;
-}
-.photon-core-h-5 {
-  font-family : signify-relative-faux;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : -0.15px;
-}
-.photon-core-h-6 {
-  font-family : signify-relative-faux;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : -.15px;
-}
-.photon-core-plain-text-bold-32 {
-  font-family : open-sans-700;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-28 {
-  font-family : open-sans-700;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-24 {
-  font-family : open-sans-700;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-20 {
-  font-family : open-sans-700;
-  font-size : 20px;
-  line-height: 28px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-16 {
-  font-family : open-sans-700;
-  font-size : 16px;
-  line-height: 24px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-14 {
-  font-family : open-sans-700;
-  font-size : 14px;
-  line-height: 20px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-bold-12 {
-  font-family : open-sans-700;
-  font-size : 12px;
-  line-height: 16px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-32 {
-  font-family : open-sans-regular;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-28 {
-  font-family : open-sans-regular;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-24 {
-  font-family : open-sans-regular;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-20 {
-  font-family : open-sans-regular;
-  font-size : 20px;
-  line-height: 28px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-16 {
-  font-family : open-sans-regular;
-  font-size : 16px;
-  line-height: 24px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-14 {
-  font-family : open-sans-regular;
-  font-size : 14px;
-  line-height: 20px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-regular-12 {
-  font-family : open-sans-regular;
-  font-size : 12px;
-  line-height: 16px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-32 {
-  font-family : primary-font;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-28 {
-  font-family : primary-font;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-24 {
-  font-family : primary-font;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-20 {
-  font-family : primary-font;
-  font-size : 20px;
-  line-height: 28px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-16 {
-  font-family : primary-font;
-  font-size : 16px;
-  line-height: 24px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-14 {
-  font-family : primary-font;
-  font-size : 14px;
-  line-height: 20px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-bold-12 {
-  font-family : primary-font;
-  font-size : 12px;
-  line-height: 16px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-32 {
-  font-family : secondary-font;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-28 {
-  font-family : secondary-font;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-24 {
-  font-family : secondary-font;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-20 {
-  font-family : secondary-font;
-  font-size : 20px;
-  line-height: 28px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-16 {
-  font-family : secondary-font;
-  font-size : 16px;
-  line-height: 24px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-14 {
-  font-family : secondary-font;
-  font-size : 14px;
-  line-height: 20px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-regular-12 {
-  font-family : secondary-font;
-  font-size : 12px;
-  line-height: 16px;
-  letter-spacing : 0em;
-}
-.photon-core-branded-text-headline-57 {
-  font-family : signify-relative-faux;
-  font-size : 57px;
-  line-height: 72px;
-  letter-spacing : -.25px;
-}
-.photon-core-branded-text-headline-45 {
-  font-family : signify-relative-faux;
-  font-size : 45px;
-  line-height: 56px;
-  letter-spacing : -0.15000000596046448px;
-}
-.photon-core-branded-text-headline-36 {
-  font-family : signify-relative-faux;
-  font-size : 36px;
-  line-height: 44px;
-  letter-spacing : -0.15000000596046448px;
-}
-.photon-core-branded-text-headline-32 {
-  font-family : signify-relative-faux;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : -.15px;
-}
-.photon-core-branded-text-headline-28 {
-  font-family : signify-relative-faux;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : -0.15000000596046448px;
-}
-.photon-core-branded-text-headline-24 {
-  font-family : signify-relative-faux;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : -.15px;
-}
-.photon-core-plain-text-medium-32 {
-  font-family : open-sans-600;
-  font-size : 32px;
-  line-height: 40px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-28 {
-  font-family : open-sans-600;
-  font-size : 28px;
-  line-height: 36px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-24 {
-  font-family : open-sans-600;
-  font-size : 24px;
-  line-height: 32px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-20 {
-  font-family : open-sans-600;
-  font-size : 20px;
-  line-height: 28px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-16 {
-  font-family : open-sans-600;
-  font-size : 16px;
-  line-height: 24px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-14 {
-  font-family : open-sans-600;
-  font-size : 14px;
-  line-height: 20px;
-  letter-spacing : 0em;
-}
-.photon-core-plain-text-medium-12 {
-  font-family : open-sans-600;
-  font-size : 12px;
-  line-height: 16px;
-  letter-spacing : 0em;
-}
-,
-/* Semantic & Component */
-
-.photon-components-buttons-main-action-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-buttons-action-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-buttons-neutral-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-buttons-quiet-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-buttons-main-action-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-buttons-action-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-buttons-neutral-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-buttons-quiet-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-input-touch-label {
-  @extend .photon-semantic-labels;
-}
-.photon-components-input-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-input-touch-helper {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-input-pointer-label {
-  @extend .photon-semantic-labels;
-}
-.photon-components-input-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-input-pointer-helper {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-controls-label-touch {
-  @extend .photon-semantic-labels;
-}
-.photon-components-controls-label-pointer {
-  @extend .photon-semantic-labels;
-}
-.photon-components-list-items-pointer-label {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-list-items-touch-label {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-list-items-touch-section-header {
-  @extend .photon-semantic-labels;
-}
-.photon-components-list-items-pointer-section-header {
-  @extend .photon-semantic-labels;
-}
-.photon-components-tooltip-title {
-  @extend .photon-semantic-labels;
-}
-.photon-components-tooltip-description {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-tooltip-link {
-  @extend .photon-semantic-caption-small;
-}
-.photon-semantic-body-text-large {
-  @extend .photon-core-plain-text-regular-16;
-}
-.photon-semantic-body-text-small {
-  @extend .photon-core-plain-text-regular-14;
-}
-.photon-semantic-caption-small {
-  @extend .photon-core-plain-text-medium-12;
-}
-.photon-semantic-labels {
-  @extend .photon-core-plain-text-medium-12;
-}
-.photon-semantic-page-title-large {
-  @extend .photon-core-plain-text-bold-32;
-}
-.photon-semantic-page-title-small {
-  @extend .photon-core-plain-text-bold-24;
-}
-.photon-semantic-dialog-title {
-  @extend .photon-core-plain-text-bold-20;
-}
-.photon-semantic-disclaimer {
-  @extend .photon-core-plain-text-regular-12;
-}
-.photon-semantic-card-title-large {
-  @extend .photon-core-plain-text-bold-16;
-}
-.photon-semantic-section-title-large {
-  @extend .photon-core-plain-text-bold-16;
-}
-.photon-semantic-section-title-small {
-  @extend .photon-core-plain-text-bold-14;
-}
-.photon-semantic-card-title-small {
-  @extend .photon-core-plain-text-bold-14;
-}
-.photon-components-date-picker-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-date-picker-text-today {
-  @extend .photon-semantic-body-text-small-bold;
-}
-.photon-semantic-body-text-small-bold {
-  @extend .photon-core-plain-text-bold-14;
-}
-.photon-semantic-headings-heading-1 {
-  @extend .photon-core-h-1;
-}
-.photon-semantic-headings-heading-2 {
-  @extend .photon-core-h-2;
-}
-.photon-semantic-headings-heading-3 {
-  @extend .photon-core-h-3;
-}
-.photon-semantic-headings-heading-4 {
-  @extend .photon-core-h-4;
-}
-.photon-semantic-headings-heading-5 {
-  @extend .photon-core-h-5;
-}
-.photon-components-tags-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-cells-label-touch {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-cells-sublabel {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-cells-plain-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-cells-table-header {
-  @extend .photon-core-plain-text-regular-24;
-}
-.photon-components-cells-cell-header-pointer {
-  @extend .photon-semantic-body-text-small-bold;
-}
-.photon-components-tabs-touch-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-tabs-pointer-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-progress-tracker-step-number {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-progress-tracker-step-name {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-list-items-pointer-sublabel {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-list-items-touch-sublabel {
-  @extend .photon-semantic-caption-small;
-}
-.photon-components-stepper-text-touch {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-stepper-text-pointer {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-snackbar-text {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-system-message-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-contextual-message-text {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-dialogs-title {
-  @extend .photon-semantic-dialog-title;
-}
-.photon-components-dialogs-content {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-expander-label-touch {
-  @extend .photon-semantic-body-text-large;
-}
-.photon-components-expander-label-pointer {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-contextual-message-text-overlay {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-semantic-body-text-large-bold {
-  @extend .photon-core-plain-text-bold-16;
-}
-.photon-semantic-caption-large {
-  @extend .photon-core-plain-text-regular-14;
-}
-.photon-semantic-display-branded-large {
-  @extend .photon-core-h-1;
-}
-.photon-semantic-display-branded-small {
-  @extend .photon-core-h-3;
-}
-.photon-semantic-page-title-branded-large {
-  @extend .photon-core-h-4;
-}
-.photon-semantic-page-title-branded-small {
-  @extend .photon-core-h-6;
-}
-.photon-components-cells-label-pointer {
-  @extend .photon-semantic-body-text-small;
-}
-.photon-components-cells-cell-header-touch {
-  @extend .photon-semantic-body-text-large-bold;
-}
-,
   "Shadows" : [
     {
       "name" : "photon-core-shadows-lvl-1",
@@ -1425,6 +2480,53 @@
       "value" : "2px solid"
     }
   ],
+  "Semantic & Components borders" : [
+    {
+    "name":"photon-semantic-border-none",
+    "value":"photon-core-solid-0"
+
+    },
+    {
+    "name":"photon-semantic-border-1",
+    "value":"photon-core-solid-1"
+
+    },
+    {
+    "name":"photon-semantic-border-2",
+    "value":"photon-core-solid-2"
+
+    },
+    {
+    "name":"photon-components-button-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-controls-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-divider-border",
+    "value":"photon-semantic-border-1"
+
+    },
+    {
+    "name":"photon-components-inputs-border",
+    "value":"photon-core-solid-1"
+
+    },
+    {
+    "name":"photon-components-notification-indicator-border",
+    "value":"photon-semantic-border-2"
+
+    },
+    {
+    "name":"photon-components-tags-border",
+    "value":"photon-semantic-border-1"
+
+    }
+  ],
   "BorderRadiuses" : [
     {
       "name" : "photon-core-radius-0",
@@ -1441,6 +2543,718 @@
     {
       "name" : "photon-core-pill",
       "value" : "100px"
+    }
+  ],
+  "Semantic & Components border radii" : [
+    {
+    "name":"photon-semantic-radius-none",
+    "value":"photon-core-radius-0"
+
+    },
+    {
+    "name":"photon-semantic-radius-2",
+    "value":"photon-core-radius-2"
+
+    },
+    {
+    "name":"photon-semantic-radius-4",
+    "value":"photon-core-radius-4"
+
+    },
+    {
+    "name":"photon-semantic-radius-pill",
+    "value":"photon-core-pill"
+
+    },
+    {
+    "name":"photon-components-buttons-radius",
+    "value":"photon-semantic-radius-2"
+
+    },
+    {
+    "name":"photon-components-inputs-radius",
+    "value":"photon-core-radius-2"
+
+    },
+    {
+    "name":"photon-components-tags-radius",
+    "value":"photon-core-pill"
+
+    }
+  ],
+  "fonts" : [
+    {
+      "name" : "primary-font",
+      "fontFamily" : "Roboto"   
+    },
+    {
+      "name" : "secondary-font",
+      "fontFamily" : "Roboto"   
+    },
+    {
+      "name" : "signify-raisonne-demi-bold",
+      "fontFamily" : "Signify Raisonne"   
+    },
+    {
+      "name" : "signify-relative-faux",
+      "fontFamily" : "Signify Relative"   
+    },
+    {
+      "name" : "signify-relative-book",
+      "fontFamily" : "Signify Relative"   
+    },
+    {
+      "name" : "signify-relative-bold",
+      "fontFamily" : "Signify Relative"   
+    },
+    {
+      "name" : "open-sans-700",
+      "fontFamily" : "Open Sans"   
+    },
+    {
+      "name" : "roboto-medium",
+      "fontFamily" : "Roboto-Medium"   
+    },
+    {
+      "name" : "inter-regular",
+      "fontFamily" : "Inter"   
+    },
+    {
+      "name" : "roboto-500",
+      "fontFamily" : "Roboto"   
+    },
+    {
+      "name" : "open-sans-600",
+      "fontFamily" : "Open Sans"   
+    },
+    {
+      "name" : "open-sans-regular",
+      "fontFamily" : "Open Sans"   
+    }
+  ],
+  "typeStyles" : [
+    {
+      "name" : "photon-core-h-1",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "57px",
+      "lineHeight" : "72px",
+      "letterSpacing" : "-0.25px"
+    },
+    {
+      "name" : "photon-core-h-2",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "45px",
+      "lineHeight" : "68px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-h-3",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "36px",
+      "lineHeight" : "44px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-h-4",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-h-5",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "-0.15px"
+    },
+    {
+      "name" : "photon-core-h-6",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-24",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-16",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-14",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-12",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-24",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-16",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-14",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-12",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-32",
+      "fontFamily" : "Roboto",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-28",
+      "fontFamily" : "Roboto",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-24",
+      "fontFamily" : "Roboto",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-20",
+      "fontFamily" : "Roboto",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-16",
+      "fontFamily" : "Roboto",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-14",
+      "fontFamily" : "Roboto",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-12",
+      "fontFamily" : "Roboto",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-32",
+      "fontFamily" : "Roboto",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-28",
+      "fontFamily" : "Roboto",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-24",
+      "fontFamily" : "Roboto",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-20",
+      "fontFamily" : "Roboto",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-16",
+      "fontFamily" : "Roboto",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-14",
+      "fontFamily" : "Roboto",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-12",
+      "fontFamily" : "Roboto",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-57",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "57px",
+      "lineHeight" : "72px",
+      "letterSpacing" : "-.25px"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-45",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "45px",
+      "lineHeight" : "56px",
+      "letterSpacing" : "-0.15000000596046448px"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-36",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "36px",
+      "lineHeight" : "44px",
+      "letterSpacing" : "-0.15000000596046448px"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-32",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-28",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "-0.15000000596046448px"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-24",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-24",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-16",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-14",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-12",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
+    }
+  ],
+  "Semantic and Component Font Tokens" : [
+    {
+      "name" : "photon-components-buttons-main-action-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-buttons-action-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-buttons-neutral-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-buttons-quiet-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-buttons-main-action-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-buttons-action-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-buttons-neutral-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-buttons-quiet-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-input-touch-label",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-input-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-input-touch-helper",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-input-pointer-label",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-input-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-input-pointer-helper",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-controls-label-touch",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-controls-label-pointer",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-list-items-pointer-label",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-list-items-touch-label",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-list-items-touch-section-header",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-list-items-pointer-section-header",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-tooltip-title",
+      "value":"photon-semantic-labels"
+    },
+    {
+      "name" : "photon-components-tooltip-description",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-tooltip-link",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-semantic-body-text-large",
+      "value":"photon-core-plain-text-regular-16"
+    },
+    {
+      "name" : "photon-semantic-body-text-small",
+      "value":"photon-core-plain-text-regular-14"
+    },
+    {
+      "name" : "photon-semantic-caption-small",
+      "value":"photon-core-plain-text-medium-12"
+    },
+    {
+      "name" : "photon-semantic-labels",
+      "value":"photon-core-plain-text-medium-12"
+    },
+    {
+      "name" : "photon-semantic-page-title-large",
+      "value":"photon-core-plain-text-bold-32"
+    },
+    {
+      "name" : "photon-semantic-page-title-small",
+      "value":"photon-core-plain-text-bold-24"
+    },
+    {
+      "name" : "photon-semantic-dialog-title",
+      "value":"photon-core-plain-text-bold-20"
+    },
+    {
+      "name" : "photon-semantic-disclaimer",
+      "value":"photon-core-plain-text-regular-12"
+    },
+    {
+      "name" : "photon-semantic-card-title-large",
+      "value":"photon-core-plain-text-bold-16"
+    },
+    {
+      "name" : "photon-semantic-section-title-large",
+      "value":"photon-core-plain-text-bold-16"
+    },
+    {
+      "name" : "photon-semantic-section-title-small",
+      "value":"photon-core-plain-text-bold-14"
+    },
+    {
+      "name" : "photon-semantic-card-title-small",
+      "value":"photon-core-plain-text-bold-14"
+    },
+    {
+      "name" : "photon-components-date-picker-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-date-picker-text-today",
+      "value":"photon-semantic-body-text-small-bold"
+    },
+    {
+      "name" : "photon-semantic-body-text-small-bold",
+      "value":"photon-core-plain-text-bold-14"
+    },
+    {
+      "name" : "photon-semantic-headings-heading-1",
+      "value":"photon-core-h-1"
+    },
+    {
+      "name" : "photon-semantic-headings-heading-2",
+      "value":"photon-core-h-2"
+    },
+    {
+      "name" : "photon-semantic-headings-heading-3",
+      "value":"photon-core-h-3"
+    },
+    {
+      "name" : "photon-semantic-headings-heading-4",
+      "value":"photon-core-h-4"
+    },
+    {
+      "name" : "photon-semantic-headings-heading-5",
+      "value":"photon-core-h-5"
+    },
+    {
+      "name" : "photon-components-tags-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-cells-label-touch",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-cells-sublabel",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-cells-plain-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-cells-table-header",
+      "value":"photon-core-plain-text-regular-24"
+    },
+    {
+      "name" : "photon-components-cells-cell-header-pointer",
+      "value":"photon-semantic-body-text-small-bold"
+    },
+    {
+      "name" : "photon-components-tabs-touch-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-tabs-pointer-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-progress-tracker-step-number",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-progress-tracker-step-name",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-list-items-pointer-sublabel",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-list-items-touch-sublabel",
+      "value":"photon-semantic-caption-small"
+    },
+    {
+      "name" : "photon-components-stepper-text-touch",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-stepper-text-pointer",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-snackbar-text",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-system-message-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-contextual-message-text",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-dialogs-title",
+      "value":"photon-semantic-dialog-title"
+    },
+    {
+      "name" : "photon-components-dialogs-content",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-expander-label-touch",
+      "value":"photon-semantic-body-text-large"
+    },
+    {
+      "name" : "photon-components-expander-label-pointer",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-contextual-message-text-overlay",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-semantic-body-text-large-bold",
+      "value":"photon-core-plain-text-bold-16"
+    },
+    {
+      "name" : "photon-semantic-caption-large",
+      "value":"photon-core-plain-text-regular-14"
+    },
+    {
+      "name" : "photon-semantic-display-branded-large",
+      "value":"photon-core-h-1"
+    },
+    {
+      "name" : "photon-semantic-display-branded-small",
+      "value":"photon-core-h-3"
+    },
+    {
+      "name" : "photon-semantic-page-title-branded-large",
+      "value":"photon-core-h-4"
+    },
+    {
+      "name" : "photon-semantic-page-title-branded-small",
+      "value":"photon-core-h-6"
+    },
+    {
+      "name" : "photon-components-cells-label-pointer",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-cells-cell-header-touch",
+      "value":"photon-semantic-body-text-large-bold"
     }
   ],
   "SpacePatterns" : [
@@ -1523,36 +3337,171 @@
       "value" : "opacity(12%)"
     }
   ],
-  "durations" : [
+  "Semantic & Components spacing" : [
     {
-      "name" : "instant",
-      "duration" : "0"
+    "name":"photon-semantic-spacing-none",
+    "value":"photon-core-padding-none"
+
     },
     {
-      "name" : "x-fast",
-      "duration" : "128"
+    "name":"photon-semantic-spacing-xxxs",
+    "value":"photon-core-padding-2"
+
     },
     {
-      "name" : "fast",
-      "duration" : "160"
+    "name":"photon-semantic-spacing-xxs",
+    "value":"photon-core-padding-4"
+
     },
     {
-      "name" : "normal",
-      "duration" : "200"
+    "name":"photon-semantic-spacing-xs",
+    "value":"photon-core-padding-6"
+
     },
     {
-      "name" : "slow",
-      "duration" : "250"
+    "name":"photon-semantic-spacing-s",
+    "value":"photon-core-padding-8"
+
     },
     {
-      "name" : "x-slow",
-      "duration" : "313"
+    "name":"photon-semantic-spacing-ss",
+    "value":"photon-core-padding-10"
+
+    },
+    {
+    "name":"photon-semantic-spacing-sss",
+    "value":"photon-core-padding-12"
+
+    },
+    {
+    "name":"photon-semantic-spacing-m",
+    "value":"photon-core-padding-16"
+
+    },
+    {
+    "name":"photon-semantic-spacing-ml",
+    "value":"photon-core-padding-24"
+
+    },
+    {
+    "name":"photon-semantic-spacing-l",
+    "value":"photon-core-padding-32"
+
+    },
+    {
+    "name":"photon-semantic-spacing-xl",
+    "value":"photon-core-padding-64"
+
+    },
+    {
+    "name":"photon-semantic-spacing-xxl",
+    "value":"photon-core-padding-128"
+
+    },
+    {
+    "name":"photon-components-breadcrumbs-sides",
+    "value":"photon-semantic-spacing-xxs"
+
+    },
+    {
+    "name":"photon-components-buttons-touch-tb",
+    "value":"photon-semantic-spacing-ss"
+
+    },
+    {
+    "name":"photon-components-buttons-touch-lr",
+    "value":"photon-semantic-spacing-ml"
+
+    },
+    {
+    "name":"photon-components-buttons-pointer-tb",
+    "value":"photon-semantic-spacing-xs"
+
+    },
+    {
+    "name":"photon-components-buttons-pointer-lr",
+    "value":"photon-semantic-spacing-ml"
+
+    },
+    {
+    "name":"photon-components-buttons-touch-icon-only",
+    "value":"photon-semantic-spacing-ss"
+
+    },
+    {
+    "name":"photon-components-buttons-pointer-icon-only",
+    "value":"photon-semantic-spacing-s"
+
+    },
+    {
+    "name":"photon-components-controls-check-radio-tb",
+    "value":"photon-semantic-spacing-ss"
+
+    },
+    {
+    "name":"photon-components-inputs-content-touch-tb",
+    "value":"photon-semantic-spacing-ss"
+
+    },
+    {
+    "name":"photon-components-inputs-content-touch-lr",
+    "value":"photon-semantic-spacing-sss"
+
+    },
+    {
+    "name":"photon-components-inputs-content-pointer-tb",
+    "value":"photon-semantic-spacing-xs"
+
+    },
+    {
+    "name":"photon-components-inputs-content-pointer-lr",
+    "value":"photon-semantic-spacing-s"
+
+    },
+    {
+    "name":"photon-components-listitems-content-lr",
+    "value":"photon-semantic-spacing-m"
+
+    },
+    {
+    "name":"photon-components-tabs-normal-tb",
+    "value":"photon-semantic-spacing-sss"
+
+    },
+    {
+    "name":"photon-components-tabs-normal-lr",
+    "value":"photon-semantic-spacing-m"
+
+    },
+    {
+    "name":"photon-components-tabs-selected-t",
+    "value":"photon-semantic-spacing-sss"
+
+    },
+    {
+    "name":"photon-components-tabs-selected-lr",
+    "value":"photon-semantic-spacing-m"
+
+    },
+    {
+    "name":"photon-components-tabs-selected-b",
+    "value":"photon-semantic-spacing-s"
+
+    },
+    {
+    "name":"photon-components-tags-unapplied-tb",
+    "value":"photon-semantic-spacing-xs"
+
+    },
+    {
+    "name":"photon-components-tags-unapplied-lr",
+    "value":"photon-semantic-spacing-xxs"
+
+    },
+    {
+    "name":"photon-components-tags-applied-all",
+    "value":"photon-semantic-spacing-xxs"
+
     }
-  ],
-  "easeCurves" : [
-
-  ],
-  "transitions" : [
-
   ]
 }
