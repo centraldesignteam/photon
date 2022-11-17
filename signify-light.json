@@ -2029,7 +2029,7 @@
     },
     {
     "name":"photon-components-buttons-off-text-icon",
-    "value":"photon-semantic-icons-default"
+    "value":"photon-semantic-actionable-neutral-on-neutral"
 
     },
     {
@@ -2608,11 +2608,27 @@
       "fontFamily" : "Signify Relative"   
     },
     {
-      "name" : "open-sans-regular",
+      "name" : "open-sans-700",
       "fontFamily" : "Open Sans"   
     },
     {
-      "name" : "open-sans-700",
+      "name" : "roboto-medium",
+      "fontFamily" : "Roboto-Medium"   
+    },
+    {
+      "name" : "inter-regular",
+      "fontFamily" : "Inter"   
+    },
+    {
+      "name" : "roboto-500",
+      "fontFamily" : "Roboto"   
+    },
+    {
+      "name" : "open-sans-600",
+      "fontFamily" : "Open Sans"   
+    },
+    {
+      "name" : "open-sans-regular",
       "fontFamily" : "Open Sans"   
     }
   ],
@@ -2620,15 +2636,15 @@
     {
       "name" : "photon-core-h-1",
       "fontFamily" : "Signify Raisonne",
-      "fontSize" : "80px",
-      "lineHeight" : "96px",
-      "letterSpacing" : "-0.01em"
+      "fontSize" : "57px",
+      "lineHeight" : "72px",
+      "letterSpacing" : "-0.25px"
     },
     {
       "name" : "photon-core-h-2",
       "fontFamily" : "Signify Raisonne",
-      "fontSize" : "56px",
-      "lineHeight" : "68px",
+      "fontSize" : "45px",
+      "lineHeight" : "56px",
       "letterSpacing" : "-0.005em"
     },
     {
@@ -2641,106 +2657,134 @@
     {
       "name" : "photon-core-h-4",
       "fontFamily" : "Signify Raisonne",
-      "fontSize" : "24px",
-      "lineHeight" : "32px",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
       "letterSpacing" : "0.005em"
     },
     {
       "name" : "photon-core-h-5",
       "fontFamily" : "Signify Raisonne",
-      "fontSize" : "18px",
-      "lineHeight" : "28px",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
       "letterSpacing" : "0.005em"
     },
     {
-      "name" : "photon-core-plain-text-bold-30",
-      "fontFamily" : "Signify Relative",
-      "fontSize" : "30px",
-      "lineHeight" : "38px",
+      "name" : "photon-core-h-6",
+      "fontFamily" : "Signify Raisonne",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "-.15px"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-bold-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-24",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-plain-text-bold-18",
-      "fontFamily" : "Signify Relative",
-      "fontSize" : "18px",
+      "name" : "photon-core-plain-text-bold-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-16",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-14",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-12",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "12px",
       "lineHeight" : "16px",
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-plain-text-regular-30",
-      "fontFamily" : "Signify Relative",
-      "fontSize" : "30px",
-      "lineHeight" : "38px",
+      "name" : "photon-core-plain-text-regular-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-regular-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-24",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-plain-text-regular-18",
-      "fontFamily" : "Signify Relative",
-      "fontSize" : "18px",
+      "name" : "photon-core-plain-text-regular-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-16",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-14",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-12",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Open Sans",
       "fontSize" : "12px",
       "lineHeight" : "16px",
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-branded-text-bold-30",
+      "name" : "photon-core-branded-text-bold-32",
       "fontFamily" : "Signify Relative",
-      "fontSize" : "30px",
-      "lineHeight" : "38px",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-bold-28",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
@@ -2751,9 +2795,9 @@
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-branded-text-bold-18",
+      "name" : "photon-core-branded-text-bold-20",
       "fontFamily" : "Signify Relative",
-      "fontSize" : "18px",
+      "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
@@ -2779,10 +2823,17 @@
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-branded-text-regular-30",
+      "name" : "photon-core-branded-text-regular-32",
       "fontFamily" : "Signify Relative",
-      "fontSize" : "30px",
-      "lineHeight" : "38px",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-regular-28",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
@@ -2793,9 +2844,9 @@
       "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-branded-text-regular-18",
+      "name" : "photon-core-branded-text-regular-20",
       "fontFamily" : "Signify Relative",
-      "fontSize" : "18px",
+      "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
@@ -2819,6 +2870,97 @@
       "fontSize" : "12px",
       "lineHeight" : "16px",
       "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-57",
+      "fontFamily" : "Signify Raisonne",
+      "fontSize" : "57px",
+      "lineHeight" : "72px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-45",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "45px",
+      "lineHeight" : "56px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-36",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "36px",
+      "lineHeight" : "44px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-32",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-28",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-branded-text-headline-24",
+      "fontFamily" : "Signify Relative",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-32",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "32px",
+      "lineHeight" : "40px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-28",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "28px",
+      "lineHeight" : "36px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-24",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "24px",
+      "lineHeight" : "32px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-20",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "20px",
+      "lineHeight" : "28px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-16",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "16px",
+      "lineHeight" : "24px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-14",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "14px",
+      "lineHeight" : "20px",
+      "letterSpacing" : "0em"
+    },
+    {
+      "name" : "photon-core-plain-text-medium-12",
+      "fontFamily" : "Open Sans",
+      "fontSize" : "12px",
+      "lineHeight" : "16px",
+      "letterSpacing" : "0em"
     }
   ],
   "Semantic and Component Font Tokens" : [
@@ -2828,15 +2970,15 @@
     },
     {
       "name" : "photon-components-buttons-action-touch-text",
-      "value":"photon-semantic-branded-actionable-large"
+      "value":"photon-semantic-body-text-large"
     },
     {
       "name" : "photon-components-buttons-neutral-touch-text",
-      "value":"photon-semantic-branded-actionable-large"
+      "value":"photon-semantic-body-text-large"
     },
     {
       "name" : "photon-components-buttons-quiet-touch-text",
-      "value":"photon-semantic-branded-actionable-large"
+      "value":"photon-semantic-body-text-large"
     },
     {
       "name" : "photon-components-buttons-main-action-pointer-text",
@@ -2844,15 +2986,15 @@
     },
     {
       "name" : "photon-components-buttons-action-pointer-text",
-      "value":"photon-semantic-branded-actionable-small"
+      "value":"photon-semantic-body-text-small"
     },
     {
       "name" : "photon-components-buttons-neutral-pointer-text",
-      "value":"photon-semantic-branded-actionable-small"
+      "value":"photon-semantic-body-text-small"
     },
     {
       "name" : "photon-components-buttons-quiet-pointer-text",
-      "value":"photon-semantic-branded-actionable-small"
+      "value":"photon-semantic-body-text-small"
     },
     {
       "name" : "photon-components-input-touch-label",
@@ -2864,7 +3006,7 @@
     },
     {
       "name" : "photon-components-input-touch-helper",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-input-pointer-label",
@@ -2876,7 +3018,7 @@
     },
     {
       "name" : "photon-components-input-pointer-helper",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-controls-label-touch",
@@ -2908,11 +3050,11 @@
     },
     {
       "name" : "photon-components-tooltip-description",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-tooltip-link",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-semantic-body-text-large",
@@ -2923,32 +3065,28 @@
       "value":"photon-core-plain-text-regular-14"
     },
     {
-      "name" : "photon-semantic-caption",
-      "value":"photon-core-plain-text-regular-12"
+      "name" : "photon-semantic-caption-small",
+      "value":"photon-core-plain-text-medium-12"
     },
     {
       "name" : "photon-semantic-labels",
-      "value":"photon-core-plain-text-bold-12"
+      "value":"photon-core-plain-text-medium-12"
     },
     {
       "name" : "photon-semantic-page-title-large",
-      "value":"photon-core-plain-text-bold-24"
+      "value":"photon-core-plain-text-bold-32"
     },
     {
       "name" : "photon-semantic-page-title-small",
-      "value":"photon-core-plain-text-bold-18"
+      "value":"photon-core-plain-text-bold-24"
     },
     {
       "name" : "photon-semantic-dialog-title",
-      "value":"photon-core-plain-text-bold-18"
-    },
-    {
-      "name" : "photon-semantic-footnotes",
-      "value":"photon-core-plain-text-regular-12"
+      "value":"photon-core-plain-text-bold-20"
     },
     {
       "name" : "photon-semantic-disclaimer",
-      "value":"photon-semantic-caption"
+      "value":"photon-core-plain-text-regular-12"
     },
     {
       "name" : "photon-semantic-card-title-large",
@@ -2959,19 +3097,7 @@
       "value":"photon-core-plain-text-bold-16"
     },
     {
-      "name" : "photon-semantic-cell-header-large",
-      "value":"photon-core-plain-text-bold-16"
-    },
-    {
       "name" : "photon-semantic-section-title-small",
-      "value":"photon-core-plain-text-bold-14"
-    },
-    {
-      "name" : "photon-semantic-cell-header-small",
-      "value":"photon-core-plain-text-bold-14"
-    },
-    {
-      "name" : "photon-semantic-cell-sublabel-small",
       "value":"photon-core-plain-text-bold-14"
     },
     {
@@ -3015,12 +3141,12 @@
       "value":"photon-semantic-body-text-small"
     },
     {
-      "name" : "photon-components-cells-label",
+      "name" : "photon-components-cells-label-touch",
       "value":"photon-semantic-body-text-large"
     },
     {
       "name" : "photon-components-cells-sublabel",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-cells-plain-text",
@@ -3031,8 +3157,8 @@
       "value":"photon-core-plain-text-regular-24"
     },
     {
-      "name" : "photon-components-cells-cell-header",
-      "value":"photon-semantic-cell-header-small"
+      "name" : "photon-components-cells-cell-header-pointer",
+      "value":"photon-semantic-body-text-small-bold"
     },
     {
       "name" : "photon-components-tabs-touch-text",
@@ -3044,7 +3170,7 @@
     },
     {
       "name" : "photon-components-progress-tracker-step-number",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-progress-tracker-step-name",
@@ -3052,19 +3178,11 @@
     },
     {
       "name" : "photon-components-list-items-pointer-sublabel",
-      "value":"photon-semantic-caption"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-list-items-touch-sublabel",
-      "value":"photon-semantic-caption"
-    },
-    {
-      "name" : "photon-semantic-branded-actionable-large",
-      "value":"photon-core-branded-text-regular-16"
-    },
-    {
-      "name" : "photon-semantic-branded-actionable-small",
-      "value":"photon-core-branded-text-regular-14"
+      "value":"photon-semantic-caption-small"
     },
     {
       "name" : "photon-components-stepper-text-touch",
@@ -3103,8 +3221,40 @@
       "value":"photon-semantic-body-text-small"
     },
     {
-      "name" : "photon-components-contextual-message-overlay-text",
+      "name" : "photon-components-contextual-message-text-overlay",
       "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-semantic-body-text-large-bold",
+      "value":"photon-core-plain-text-bold-16"
+    },
+    {
+      "name" : "photon-semantic-caption-large",
+      "value":"photon-core-plain-text-regular-14"
+    },
+    {
+      "name" : "photon-semantic-display-branded-large",
+      "value":"photon-core-h-1"
+    },
+    {
+      "name" : "photon-semantic-display-branded-small",
+      "value":"photon-core-h-3"
+    },
+    {
+      "name" : "photon-semantic-page-title-branded-large",
+      "value":"photon-core-h-4"
+    },
+    {
+      "name" : "photon-semantic-page-title-branded-small",
+      "value":"photon-core-h-6"
+    },
+    {
+      "name" : "photon-components-cells-label-pointer",
+      "value":"photon-semantic-body-text-small"
+    },
+    {
+      "name" : "photon-components-cells-cell-header-touch",
+      "value":"photon-semantic-body-text-large-bold"
     }
   ],
   "SpacePatterns" : [
