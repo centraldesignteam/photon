@@ -2334,7 +2334,7 @@
     },
     {
     "name":"photon-components-system-message-background",
-    "value":"photon-core-secondary-80-secondary"
+    "value":"photon-core-neutral-100-neutral"
 
     },
     {
@@ -2677,150 +2677,150 @@
     },
     {
       "name" : "photon-core-plain-text-bold-32",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "32px",
       "lineHeight" : "40px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-28",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "28px",
       "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-24",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-20",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-bold-16",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-bold-14",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-bold-12",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.4px"
     },
     {
       "name" : "photon-core-plain-text-regular-32",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "32px",
       "lineHeight" : "40px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-28",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "28px",
       "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-24",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-regular-20",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-regular-16",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-regular-14",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-regular-12",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.4px"
     },
     {
       "name" : "photon-core-branded-text-bold-32",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "32px",
       "lineHeight" : "40px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-bold-28",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "28px",
       "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-bold-24",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-bold-20",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "-0.03px"
     },
     {
       "name" : "photon-core-branded-text-bold-16",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "16px",
       "lineHeight" : "24px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-bold-14",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.1px"
     },
     {
       "name" : "photon-core-branded-text-bold-12",
-      "fontFamily" : "Roboto",
+      "fontFamily" : "Signify Relative",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.3px"
     },
     {
       "name" : "photon-core-branded-text-regular-32",
@@ -2848,7 +2848,7 @@
       "fontFamily" : "Roboto",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "-0.1px"
     },
     {
       "name" : "photon-core-branded-text-regular-16",
@@ -2862,14 +2862,14 @@
       "fontFamily" : "Roboto",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.1px"
     },
     {
       "name" : "photon-core-branded-text-regular-12",
       "fontFamily" : "Roboto",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.45px"
     },
     {
       "name" : "photon-core-branded-text-headline-57",
@@ -2915,52 +2915,52 @@
     },
     {
       "name" : "photon-core-plain-text-medium-32",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "32px",
       "lineHeight" : "40px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-medium-28",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "28px",
       "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-medium-24",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-medium-20",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "20px",
       "lineHeight" : "28px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-plain-text-medium-16",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-medium-14",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-medium-12",
-      "fontFamily" : "Open Sans",
+      "fontFamily" : "Roboto",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.4px"
     }
   ],
   "Semantic and Component Font Tokens" : [
@@ -3070,7 +3070,7 @@
     },
     {
       "name" : "photon-semantic-labels",
-      "value":"photon-core-plain-text-medium-12"
+      "value":"photon-core-plain-text-bold-12"
     },
     {
       "name" : "photon-semantic-page-title-large",
