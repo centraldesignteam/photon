@@ -602,13 +602,13 @@
   font-family : var(--open-sans-600);
   font-size : 16px;
   line-height: 24px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-medium-14 {
   font-family : var(--open-sans-600);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-medium-12 {
   font-family : var(--open-sans-600);
@@ -698,7 +698,7 @@
   @extend .photon-core-plain-text-medium-12;
 }
 .photon-semantic-labels {
-  @extend .photon-core-plain-text-medium-12;
+  @extend .photon-core-plain-text-bold-12;
 }
 .photon-semantic-page-title-large {
   @extend .photon-core-plain-text-bold-32;
