@@ -2334,7 +2334,7 @@
     },
     {
     "name":"photon-components-system-message-background",
-    "value":"photon-core-secondary-80-secondary"
+    "value":"photon-core-neutral-100-neutral"
 
     },
     {
@@ -2946,14 +2946,14 @@
       "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-medium-14",
       "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15px"
     },
     {
       "name" : "photon-core-plain-text-medium-12",
@@ -3070,7 +3070,7 @@
     },
     {
       "name" : "photon-semantic-labels",
-      "value":"photon-core-plain-text-medium-12"
+      "value":"photon-core-plain-text-bold-12"
     },
     {
       "name" : "photon-semantic-page-title-large",
