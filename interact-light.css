@@ -371,130 +371,130 @@
   letter-spacing : -.15px;
 }
 .photon-core-plain-text-bold-32 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 32px;
   line-height: 40px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-28 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-24 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-20 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-bold-16 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 16px;
   line-height: 24px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-bold-14 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-bold-12 {
-  font-family : var(--open-sans-700);
+  font-family : var(--primary-font);
   font-size : 12px;
   line-height: 16px;
-  letter-spacing : 0em;
+  letter-spacing : 0.4px;
 }
 .photon-core-plain-text-regular-32 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 32px;
   line-height: 40px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-28 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-24 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-regular-20 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 20px;
   line-height: 28px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-regular-16 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 16px;
   line-height: 24px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-regular-14 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-regular-12 {
-  font-family : var(--open-sans-regular);
+  font-family : var(--secondary-font);
   font-size : 12px;
   line-height: 16px;
-  letter-spacing : 0em;
+  letter-spacing : 0.4px;
 }
 .photon-core-branded-text-bold-32 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 32px;
   line-height: 40px;
   letter-spacing : 0em;
 }
 .photon-core-branded-text-bold-28 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-branded-text-bold-24 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
 .photon-core-branded-text-bold-20 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 20px;
   line-height: 28px;
-  letter-spacing : 0em;
+  letter-spacing : -0.03px;
 }
 .photon-core-branded-text-bold-16 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 16px;
   line-height: 24px;
   letter-spacing : 0em;
 }
 .photon-core-branded-text-bold-14 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.1px;
 }
 .photon-core-branded-text-bold-12 {
-  font-family : var(--primary-font);
+  font-family : var(--signify-relative-bold);
   font-size : 12px;
   line-height: 16px;
-  letter-spacing : 0em;
+  letter-spacing : 0.3px;
 }
 .photon-core-branded-text-regular-32 {
   font-family : var(--secondary-font);
@@ -518,7 +518,7 @@
   font-family : var(--secondary-font);
   font-size : 20px;
   line-height: 28px;
-  letter-spacing : 0em;
+  letter-spacing : -0.1px;
 }
 .photon-core-branded-text-regular-16 {
   font-family : var(--secondary-font);
@@ -530,13 +530,13 @@
   font-family : var(--secondary-font);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.1px;
 }
 .photon-core-branded-text-regular-12 {
   font-family : var(--secondary-font);
   font-size : 12px;
   line-height: 16px;
-  letter-spacing : 0em;
+  letter-spacing : 0.45px;
 }
 .photon-core-branded-text-headline-57 {
   font-family : var(--signify-relative-faux);
@@ -575,46 +575,46 @@
   letter-spacing : -.15px;
 }
 .photon-core-plain-text-medium-32 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 32px;
   line-height: 40px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-medium-28 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 28px;
   line-height: 36px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-medium-24 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 24px;
   line-height: 32px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-medium-20 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 20px;
   line-height: 28px;
   letter-spacing : 0em;
 }
 .photon-core-plain-text-medium-16 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 16px;
   line-height: 24px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-medium-14 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 14px;
   line-height: 20px;
-  letter-spacing : 0em;
+  letter-spacing : 0.15px;
 }
 .photon-core-plain-text-medium-12 {
-  font-family : var(--open-sans-600);
+  font-family : var(--roboto-500);
   font-size : 12px;
   line-height: 16px;
-  letter-spacing : 0em;
+  letter-spacing : 0.4px;
 }
 
 /* Semantic & Component */
@@ -698,7 +698,7 @@
   @extend .photon-core-plain-text-medium-12;
 }
 .photon-semantic-labels {
-  @extend .photon-core-plain-text-medium-12;
+  @extend .photon-core-plain-text-bold-12;
 }
 .photon-semantic-page-title-large {
   @extend .photon-core-plain-text-bold-32;
