@@ -737,8 +737,16 @@
       "value" : "#ff375f"
     },
     {
-      "name" : "✗-photon-components-contextual-message-border-overlay",
-      "value" : "#3c3c41"
+      "name" : "photon-core-transparent-30-of-120-tertiary",
+      "value" : "#1432ff4d"
+    },
+    {
+      "name" : "copy-of-photon-core-tertiary-120-tertiary",
+      "value" : "#1432ff"
+    },
+    {
+      "name" : "copy-of-photon-core-tertiary-120-tertiary",
+      "value" : "#1432ff"
     }
   ],
   "Semantic & Components colors" : [
@@ -849,7 +857,7 @@
     },
     {
     "name":"photon-semantic-text-link-states-disabled",
-    "value":"photon-core-tertiary-20-tertiary"
+    "value":"photon-core-transparent-30-of-120-tertiary"
 
     },
     {
@@ -1319,7 +1327,7 @@
     },
     {
     "name":"photon-semantic-actionable-action-background-hover",
-    "value":"photon-core-secondary-160-secondary"
+    "value":"photon-core-secondary-120-secondary"
 
     },
     {
@@ -1339,7 +1347,7 @@
     },
     {
     "name":"photon-semantic-actionable-neutral-background-pressed",
-    "value":"photon-core-secondary-60-secondary"
+    "value":"photon-core-secondary-40-secondary"
 
     },
     {
@@ -2109,7 +2117,7 @@
     },
     {
     "name":"photon-components-notification-indicator-number-dot",
-    "value":"photon-core-neutral-100-neutral"
+    "value":"photon-semantic-secondary"
 
     },
     {
@@ -2334,7 +2342,7 @@
     },
     {
     "name":"photon-components-system-message-background",
-    "value":"photon-core-neutral-100-neutral"
+    "value":"photon-core-secondary-160-secondary"
 
     },
     {
@@ -2445,6 +2453,126 @@
     {
     "name":"photon-semantic-on-warning-light",
     "value":"photon-core-yellow-160-yellow"
+
+    },
+    {
+    "name":"photon-components-system-message-link-text",
+    "value":"photon-core-tertiary-60-tertiary"
+
+    },
+    {
+    "name":"photon-components-menu-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-menu-background-hover",
+    "value":"photon-semantic-surface-hover"
+
+    },
+    {
+    "name":"photon-components-menu-icon-nested",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-menu-text",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-components-menu-icon-label",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-avatar-background",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-avatar-icon-text",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-avatar-signify",
+    "value":"photon-semantic-logos-signify"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-details-details-textcolor",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-details-details-secondary-textcolor",
+    "value":"photon-core-secondary-80-secondary"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-global-action-icon",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-navigational-tab-textcolor-default",
+    "value":"photon-core-neutral-60-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-navigational-tab-textcolor-hover",
+    "value":"photon-core-neutral-20-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-navigational-tab-textcolor-active",
+    "value":"photon-core-primary-00-primary"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-icon",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-background",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-global-top-bar-textcolor",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-navigation-tab-bar-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-navigation-tab-bar-icon",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-contextual-message-icon-warning",
+    "value":"photon-semantic-warning"
+
+    },
+    {
+    "name":"photon-components-contextual-message-border-warning",
+    "value":"photon-semantic-warning"
+
+    },
+    {
+    "name":"photon-semantic-overflow-gradient",
+    "value":"photon-core-gradients-0-85-white"
+
+    },
+    {
+    "name":"photon-components-navigation-tab-bar-overflow-gradient",
+    "value":"photon-semantic-overflow-gradient"
 
     }
   ],
@@ -2630,50 +2758,58 @@
     {
       "name" : "open-sans-regular",
       "fontFamily" : "Open Sans"   
+    },
+    {
+      "name" : "signify-relative-regular",
+      "fontFamily" : "Signify Relative"   
+    },
+    {
+      "name" : "signify-raisonne-700",
+      "fontFamily" : "Signify Raisonne"   
     }
   ],
   "typeStyles" : [
     {
-      "name" : "photon-core-h-1",
+      "name" : "photon-core-h-1-h-6-h-1",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "57px",
       "lineHeight" : "72px",
       "letterSpacing" : "-0.25px"
     },
     {
-      "name" : "photon-core-h-2",
+      "name" : "photon-core-h-1-h-6-h-2",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "45px",
       "lineHeight" : "56px",
-      "letterSpacing" : "-0.005em"
+      "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-h-3",
+      "name" : "photon-core-h-1-h-6-h-3",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "36px",
       "lineHeight" : "44px",
-      "letterSpacing" : "0.0025em"
+      "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-h-4",
+      "name" : "photon-core-h-1-h-6-h-4",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "32px",
       "lineHeight" : "40px",
-      "letterSpacing" : "0.005em"
+      "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-h-5",
+      "name" : "photon-core-h-1-h-6-h-5",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "28px",
       "lineHeight" : "36px",
-      "letterSpacing" : "0.005em"
+      "letterSpacing" : "0em"
     },
     {
-      "name" : "photon-core-h-6",
+      "name" : "photon-core-h-1-h-6-h-6",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "24px",
       "lineHeight" : "32px",
-      "letterSpacing" : "-.15px"
+      "letterSpacing" : "0px"
     },
     {
       "name" : "photon-core-plain-text-bold-32",
@@ -2701,35 +2837,35 @@
       "fontFamily" : "Open Sans",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0px"
     },
     {
       "name" : "photon-core-plain-text-bold-16",
       "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-bold-14",
       "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-bold-12",
       "fontFamily" : "Open Sans",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.3499999940395355px"
     },
     {
       "name" : "photon-core-plain-text-regular-32",
       "fontFamily" : "Open Sans",
       "fontSize" : "32px",
       "lineHeight" : "40px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0px"
     },
     {
       "name" : "photon-core-plain-text-regular-28",
@@ -2750,28 +2886,28 @@
       "fontFamily" : "Open Sans",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-regular-16",
       "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-regular-14",
       "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.25px"
     },
     {
       "name" : "photon-core-plain-text-regular-12",
       "fontFamily" : "Open Sans",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.4000000059604645px"
     },
     {
       "name" : "photon-core-branded-text-bold-32",
@@ -2799,7 +2935,7 @@
       "fontFamily" : "Signify Relative",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "-0.30000001192092896px"
     },
     {
       "name" : "photon-core-branded-text-bold-16",
@@ -2813,14 +2949,14 @@
       "fontFamily" : "Signify Relative",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.10000000149011612px"
     },
     {
       "name" : "photon-core-branded-text-bold-12",
       "fontFamily" : "Signify Relative",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.30000001192092896px"
     },
     {
       "name" : "photon-core-branded-text-regular-32",
@@ -2841,14 +2977,14 @@
       "fontFamily" : "Signify Relative",
       "fontSize" : "24px",
       "lineHeight" : "32px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0px"
     },
     {
       "name" : "photon-core-branded-text-regular-20",
       "fontFamily" : "Signify Relative",
       "fontSize" : "20px",
       "lineHeight" : "28px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "-0.10000000149011612px"
     },
     {
       "name" : "photon-core-branded-text-regular-16",
@@ -2862,53 +2998,53 @@
       "fontFamily" : "Signify Relative",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.10000000149011612px"
     },
     {
       "name" : "photon-core-branded-text-regular-12",
       "fontFamily" : "Signify Relative",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.44999998807907104px"
     },
     {
       "name" : "photon-core-branded-text-headline-57",
       "fontFamily" : "Signify Raisonne",
       "fontSize" : "57px",
       "lineHeight" : "72px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "-0.25px"
     },
     {
       "name" : "photon-core-branded-text-headline-45",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Signify Raisonne",
       "fontSize" : "45px",
       "lineHeight" : "56px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-headline-36",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Signify Raisonne",
       "fontSize" : "36px",
       "lineHeight" : "44px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-headline-32",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Signify Raisonne",
       "fontSize" : "32px",
       "lineHeight" : "40px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-headline-28",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Signify Raisonne",
       "fontSize" : "28px",
       "lineHeight" : "36px",
       "letterSpacing" : "0em"
     },
     {
       "name" : "photon-core-branded-text-headline-24",
-      "fontFamily" : "Signify Relative",
+      "fontFamily" : "Signify Raisonne",
       "fontSize" : "24px",
       "lineHeight" : "32px",
       "letterSpacing" : "0em"
@@ -2946,211 +3082,211 @@
       "fontFamily" : "Open Sans",
       "fontSize" : "16px",
       "lineHeight" : "24px",
-      "letterSpacing" : "0.15px"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-medium-14",
       "fontFamily" : "Open Sans",
       "fontSize" : "14px",
       "lineHeight" : "20px",
-      "letterSpacing" : "0.15px"
+      "letterSpacing" : "0.15000000596046448px"
     },
     {
       "name" : "photon-core-plain-text-medium-12",
       "fontFamily" : "Open Sans",
       "fontSize" : "12px",
       "lineHeight" : "16px",
-      "letterSpacing" : "0em"
+      "letterSpacing" : "0.3499999940395355px"
     }
   ],
   "Semantic and Component Font Tokens" : [
     {
       "name" : "photon-components-buttons-main-action-touch-text",
-      "value":"photon-core-plain-text-bold-16"
+      "value":"photon-semantic-body-text-main-large-bold"
     },
     {
       "name" : "photon-components-buttons-action-touch-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-buttons-neutral-touch-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-buttons-quiet-touch-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-buttons-main-action-pointer-text",
-      "value":"photon-core-plain-text-bold-14"
+      "value":"photon-semantic-body-text-main-small-bold"
     },
     {
       "name" : "photon-components-buttons-action-pointer-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-buttons-neutral-pointer-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-buttons-quiet-pointer-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-input-touch-label",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-input-touch-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-input-touch-helper",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-input-pointer-label",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-input-pointer-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-input-pointer-helper",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-controls-label-touch",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-controls-label-pointer",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-list-items-pointer-label",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-list-items-touch-label",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-list-items-touch-section-header",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-list-items-pointer-section-header",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-tooltip-title",
-      "value":"photon-semantic-labels"
+      "value":"photon-semantic-label-or-caption-labels"
     },
     {
       "name" : "photon-components-tooltip-description",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-tooltip-link",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
-      "name" : "photon-semantic-body-text-large",
-      "value":"photon-core-plain-text-regular-16"
+      "name" : "photon-semantic-body-text-main-large",
+      "value":"photon-core-branded-text-regular-16"
     },
     {
-      "name" : "photon-semantic-body-text-small",
-      "value":"photon-core-plain-text-regular-14"
+      "name" : "photon-semantic-body-text-main-small",
+      "value":"photon-core-branded-text-regular-14"
     },
     {
-      "name" : "photon-semantic-caption-small",
+      "name" : "photon-semantic-label-or-caption-caption-small",
       "value":"photon-core-plain-text-medium-12"
     },
     {
-      "name" : "photon-semantic-labels",
-      "value":"photon-core-plain-text-bold-12"
+      "name" : "photon-semantic-label-or-caption-labels",
+      "value":"photon-core-plain-text-medium-12"
     },
     {
       "name" : "photon-semantic-page-title-large",
-      "value":"photon-core-plain-text-bold-32"
+      "value":"photon-core-branded-text-bold-32"
     },
     {
       "name" : "photon-semantic-page-title-small",
-      "value":"photon-core-plain-text-bold-24"
+      "value":"photon-core-branded-text-bold-24"
     },
     {
-      "name" : "photon-semantic-dialog-title",
-      "value":"photon-core-plain-text-bold-20"
+      "name" : "photon-semantic-title-dialog-title",
+      "value":"photon-core-branded-text-bold-20"
     },
     {
-      "name" : "photon-semantic-disclaimer",
+      "name" : "photon-semantic-label-or-caption-disclaimer",
       "value":"photon-core-plain-text-regular-12"
     },
     {
-      "name" : "photon-semantic-card-title-large",
-      "value":"photon-core-plain-text-bold-16"
+      "name" : "photon-semantic-title-card-title-large",
+      "value":"photon-core-branded-text-bold-16"
     },
     {
-      "name" : "photon-semantic-section-title-large",
-      "value":"photon-core-plain-text-bold-16"
+      "name" : "photon-semantic-title-section-title-large",
+      "value":"photon-core-branded-text-bold-16"
     },
     {
-      "name" : "photon-semantic-section-title-small",
-      "value":"photon-core-plain-text-bold-14"
+      "name" : "photon-semantic-title-section-title-small",
+      "value":"photon-core-branded-text-bold-14"
     },
     {
-      "name" : "photon-semantic-card-title-small",
-      "value":"photon-core-plain-text-bold-14"
+      "name" : "photon-semantic-title-card-title-small",
+      "value":"photon-core-branded-text-bold-14"
     },
     {
       "name" : "photon-components-date-picker-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-date-picker-text-today",
-      "value":"photon-semantic-body-text-small-bold"
+      "value":"photon-semantic-body-text-main-small-bold"
     },
     {
-      "name" : "photon-semantic-body-text-small-bold",
-      "value":"photon-core-plain-text-bold-14"
+      "name" : "photon-semantic-body-text-main-small-bold",
+      "value":"photon-core-branded-text-bold-14"
     },
     {
       "name" : "photon-semantic-headings-heading-1",
-      "value":"photon-core-h-1"
+      "value":"photon-core-h-1-h-6-h-1"
     },
     {
       "name" : "photon-semantic-headings-heading-2",
-      "value":"photon-core-h-2"
+      "value":"photon-core-h-1-h-6-h-2"
     },
     {
       "name" : "photon-semantic-headings-heading-3",
-      "value":"photon-core-h-3"
+      "value":"photon-core-h-1-h-6-h-3"
     },
     {
       "name" : "photon-semantic-headings-heading-4",
-      "value":"photon-core-h-4"
+      "value":"photon-core-h-1-h-6-h-4"
     },
     {
       "name" : "photon-semantic-headings-heading-5",
-      "value":"photon-core-h-5"
+      "value":"photon-core-h-1-h-6-h-5"
     },
     {
       "name" : "photon-components-tags-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-cells-label-touch",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-cells-sublabel",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-cells-plain-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-cells-table-header",
@@ -3158,103 +3294,151 @@
     },
     {
       "name" : "photon-components-cells-cell-header-pointer",
-      "value":"photon-semantic-body-text-small-bold"
+      "value":"photon-semantic-body-text-main-small-bold"
     },
     {
       "name" : "photon-components-tabs-touch-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-tabs-pointer-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-progress-tracker-step-number",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-progress-tracker-step-name",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-list-items-pointer-sublabel",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-list-items-touch-sublabel",
-      "value":"photon-semantic-caption-small"
+      "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
       "name" : "photon-components-stepper-text-touch",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-stepper-text-pointer",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-snackbar-text",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-system-message-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-contextual-message-text",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-dialogs-title",
-      "value":"photon-semantic-dialog-title"
-    },
-    {
-      "name" : "photon-components-dialogs-content",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-title-dialog-title"
     },
     {
       "name" : "photon-components-expander-label-touch",
-      "value":"photon-semantic-body-text-large"
+      "value":"photon-semantic-body-text-main-large"
     },
     {
       "name" : "photon-components-expander-label-pointer",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-contextual-message-text-overlay",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
-      "name" : "photon-semantic-body-text-large-bold",
-      "value":"photon-core-plain-text-bold-16"
+      "name" : "photon-semantic-body-text-main-large-bold",
+      "value":"photon-core-branded-text-bold-16"
     },
     {
-      "name" : "photon-semantic-caption-large",
-      "value":"photon-core-plain-text-regular-14"
+      "name" : "photon-semantic-label-or-caption-caption-large",
+      "value":"photon-core-branded-text-regular-14"
     },
     {
       "name" : "photon-semantic-display-branded-large",
-      "value":"photon-core-h-1"
+      "value":"photon-core-h-1-h-6-h-1"
     },
     {
       "name" : "photon-semantic-display-branded-small",
-      "value":"photon-core-h-3"
+      "value":"photon-core-h-1-h-6-h-3"
     },
     {
-      "name" : "photon-semantic-page-title-branded-large",
-      "value":"photon-core-h-4"
+      "name" : "photon-semantic-page-title-large-branded",
+      "value":"photon-core-h-1-h-6-h-4"
     },
     {
-      "name" : "photon-semantic-page-title-branded-small",
-      "value":"photon-core-h-6"
+      "name" : "photon-semantic-page-title-small-branded",
+      "value":"photon-core-h-1-h-6-h-6"
     },
     {
       "name" : "photon-components-cells-label-pointer",
-      "value":"photon-semantic-body-text-small"
+      "value":"photon-semantic-body-text-main-small"
     },
     {
       "name" : "photon-components-cells-cell-header-touch",
-      "value":"photon-semantic-body-text-large-bold"
+      "value":"photon-semantic-body-text-main-large-bold"
+    },
+    {
+      "name" : "photon-semantic-body-text-secondary-large",
+      "value":"photon-core-plain-text-regular-16"
+    },
+    {
+      "name" : "photon-semantic-body-text-secondary-large-bold",
+      "value":"photon-core-plain-text-bold-16"
+    },
+    {
+      "name" : "photon-semantic-body-text-secondary-small",
+      "value":"photon-core-plain-text-regular-14"
+    },
+    {
+      "name" : "photon-semantic-body-text-secondary-small-bold",
+      "value":"photon-core-plain-text-bold-14"
+    },
+    {
+      "name" : "photon-semantic-label-or-caption-caption-secondary-large",
+      "value":"photon-core-plain-text-regular-14"
+    },
+    {
+      "name" : "photon-components-menu-text-touch",
+      "value":"photon-semantic-body-text-main-large"
+    },
+    {
+      "name" : "photon-components-menu-text-pointer",
+      "value":"photon-semantic-body-text-main-small"
+    },
+    {
+      "name" : "photon-components-navigation-global-top-bar-avatar-typography",
+      "value":"photon-semantic-body-text-main-large-bold"
+    },
+    {
+      "name" : "photon-components-navigation-global-top-bar-details-text-small",
+      "value":"photon-semantic-label-or-caption-caption-small"
+    },
+    {
+      "name" : "photon-components-navigation-global-top-bar-details-text",
+      "value":"photon-semantic-body-text-main-small"
+    },
+    {
+      "name" : "photon-components-navigation-navigational-tab-text",
+      "value":"photon-semantic-body-text-main-large"
+    },
+    {
+      "name" : "photon-components-navigation-global-top-bar-text",
+      "value":"photon-semantic-body-text-main-large"
+    },
+    {
+      "name" : "photon-components-navigation-global-top-bar-title",
+      "value":"photon-semantic-body-text-main-large-bold"
     }
   ],
   "SpacePatterns" : [
