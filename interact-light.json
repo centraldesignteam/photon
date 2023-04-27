@@ -747,6 +747,10 @@
     {
       "name" : "copy-of-photon-core-tertiary-120-tertiary",
       "value" : "#1432ff"
+    },
+    {
+      "name" : "photon-core-logos-whitelabel",
+      "value" : "#1b1b1f"
     }
   ],
   "Semantic & Components colors" : [
@@ -2207,7 +2211,7 @@
     },
     {
     "name":"photon-semantic-alerts-medium",
-    "value":"photon-core-yellow-60-yellow"
+    "value":"photon-semantic-warning"
 
     },
     {
@@ -2501,12 +2505,12 @@
 
     },
     {
-    "name":"photon-components-navigation-global-top-bar-details-details-textcolor",
+    "name":"photon-components-navigation-global-top-bar-profile-profile-textcolor",
     "value":"photon-core-neutral-00-neutral"
 
     },
     {
-    "name":"photon-components-navigation-global-top-bar-details-details-secondary-textcolor",
+    "name":"photon-components-navigation-global-top-bar-profile-profile-secondary-textcolor",
     "value":"photon-core-secondary-80-secondary"
 
     },
@@ -2573,6 +2577,146 @@
     {
     "name":"photon-components-navigation-tab-bar-overflow-gradient",
     "value":"photon-semantic-overflow-gradient"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-background-hover",
+    "value":"photon-semantic-surface-hover"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-background-active",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-background-nested-last-level-active",
+    "value":"photon-semantic-contrast-colors-low"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-bar-selected",
+    "value":"photon-semantic-icons-selected"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-icon",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-icon-selected",
+    "value":"photon-semantic-icons-selected"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-chevron",
+    "value":"photon-semantic-icons-actionable"
+
+    },
+    {
+    "name":"photon-components-navigation-sidebar-text-color",
+    "value":"photon-semantic-text-default"
+
+    },
+    {
+    "name":"photon-semantic-logos-background-signify",
+    "value":"photon-core-neutral-140-neutral"
+
+    },
+    {
+    "name":"photon-semantic-logos-background-interact",
+    "value":"photon-core-logos-coral"
+
+    },
+    {
+    "name":"photon-semantic-logos-background-whitelabel",
+    "value":"photon-core-data-visualization-ink-blue-180-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-logos-photon",
+    "value":"photon-core-logos-whitelabel"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text",
+    "value":"photon-core-neutral-60-neutral"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text-hover",
+    "value":"photon-core-tertiary-60-tertiary"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text-focussed",
+    "value":"photon-core-neutral-20-neutral"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text-pressed",
+    "value":"photon-core-neutral-20-neutral"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text-disable",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-components-breadcrumb-alternate-text-last-item",
+    "value":"photon-core-neutral-00-neutral"
+
+    },
+    {
+    "name":"photon-semantic-logos-photon-blue",
+    "value":"photon-core-data-visualization-ink-blue-100-ink-blue"
+
+    },
+    {
+    "name":"photon-semantic-logos-photon-magenta",
+    "value":"photon-core-data-visualization-magenta-100-magenta"
+
+    },
+    {
+    "name":"photon-semantic-logos-photon-purple",
+    "value":"photon-core-data-visualization-purple-100-purple"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-background",
+    "value":"photon-semantic-surface"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-background-hover",
+    "value":"photon-semantic-surface-hover"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-bar-selected",
+    "value":"photon-semantic-icons-selected"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-icon",
+    "value":"photon-semantic-icons-default"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-icon-selected",
+    "value":"photon-semantic-icons-selected"
+
+    },
+    {
+    "name":"photon-components-navigation-side-panel-text-color",
+    "value":"photon-semantic-text-default"
 
     }
   ],
@@ -3174,11 +3318,11 @@
     },
     {
       "name" : "photon-components-list-items-touch-section-header",
-      "value":"photon-semantic-label-or-caption-labels"
+      "value":"photon-semantic-title-section-title-large"
     },
     {
       "name" : "photon-components-list-items-pointer-section-header",
-      "value":"photon-semantic-label-or-caption-labels"
+      "value":"photon-semantic-title-section-title-small"
     },
     {
       "name" : "photon-components-tooltip-title",
@@ -3421,11 +3565,11 @@
       "value":"photon-semantic-body-text-main-large-bold"
     },
     {
-      "name" : "photon-components-navigation-global-top-bar-details-text-small",
+      "name" : "photon-components-navigation-global-top-bar-profile-text-small",
       "value":"photon-semantic-label-or-caption-caption-small"
     },
     {
-      "name" : "photon-components-navigation-global-top-bar-details-text",
+      "name" : "photon-components-navigation-global-top-bar-profile-text",
       "value":"photon-semantic-body-text-main-small"
     },
     {
@@ -3438,6 +3582,22 @@
     },
     {
       "name" : "photon-components-navigation-global-top-bar-title",
+      "value":"photon-semantic-body-text-main-large-bold"
+    },
+    {
+      "name" : "photon-components-navigation-sidebar-text",
+      "value":"photon-semantic-body-text-main-large"
+    },
+    {
+      "name" : "photon-components-navigation-sidebar-text-selected",
+      "value":"photon-semantic-body-text-main-large-bold"
+    },
+    {
+      "name" : "photon-components-navigation-side-panel-text",
+      "value":"photon-semantic-body-text-main-large"
+    },
+    {
+      "name" : "photon-components-navigation-side-panel-text-selected",
       "value":"photon-semantic-body-text-main-large-bold"
     }
   ],
