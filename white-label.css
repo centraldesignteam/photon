@@ -188,6 +188,7 @@
   --photon-core-transparent-30-of-120-tertiary: #1432ff4d;
   --copy-of-photon-core-tertiary-120-tertiary: #1432ff;
   --copy-of-photon-core-tertiary-120-tertiary: #1432ff;
+  --photon-core-logos-whitelabel: #1b1b1f;
 }
 
 /* Semantic Colors & Component Colors */
@@ -307,20 +308,33 @@
   --photon-semantic-track-foreground-secondary: var(photon-core-secondary-140-secondary);
   --photon-semantic-alerts-high: var(photon-core-red-100-red);
   --photon-semantic-alerts-on-high: var(photon-core-neutral-00-neutral);
-  --photon-semantic-alerts-medium: var(photon-core-yellow-60-yellow);
+  --photon-semantic-alerts-medium: var(photon-semantic-warning);
   --photon-semantic-alerts-on-medium: var(photon-core-neutral-140-neutral);
   --photon-semantic-logos-light: var(photon-core-logos-white);
   --photon-semantic-logos-gray: var(photon-core-logos-gray);
   --photon-semantic-logos-dark: var(photon-core-logos-dark);
   --photon-semantic-logos-coral: var(photon-core-logos-coral);
   --photon-semantic-logos-signify: var(photon-core-logos-signify);
+  --photon-semantic-logos-photon: var(photon-core-logos-whitelabel);
+  --photon-semantic-logos-photon-blue: var(photon-core-data-visualization-ink-blue-100-ink-blue);
+  --photon-semantic-logos-photon-magenta: var(photon-core-data-visualization-magenta-100-magenta);
+  --photon-semantic-logos-photon-purple: var(photon-core-data-visualization-purple-100-purple);
+  --photon-semantic-logos-background-interact: var(photon-core-logos-coral);
+  --photon-semantic-logos-background-signify: var(photon-core-neutral-140-neutral);
+  --photon-semantic-logos-background-whitelabel: var(photon-core-data-visualization-ink-blue-180-ink-blue);
   --photon-components-breadcrumb-text: var(photon-semantic-text-secondary);
   --photon-components-breadcrumb-text-hover: var(photon-semantic-text-link-states-hover);
   --photon-components-breadcrumb-text-focused: var(photon-semantic-text-default);
   --photon-components-breadcrumb-text-pressed: var(photon-semantic-text-default);
-  --photon-components-breadcrumb-text-last-item: var(photon-semantic-text-default);
   --photon-components-breadcrumb-text-disable: var(photon-semantic-text-default);
+  --photon-components-breadcrumb-text-last-item: var(photon-semantic-text-default);
   --photon-components-breadcrumb-icon: var(photon-semantic-icons-default);
+  --photon-components-breadcrumb-alternate-text: var(photon-core-neutral-60-neutral);
+  --photon-components-breadcrumb-alternate-text-hover: var(photon-core-tertiary-60-tertiary);
+  --photon-components-breadcrumb-alternate-text-focussed: var(photon-core-neutral-20-neutral);
+  --photon-components-breadcrumb-alternate-text-pressed: var(photon-core-neutral-20-neutral);
+  --photon-components-breadcrumb-alternate-text-disable: var(photon-core-neutral-00-neutral);
+  --photon-components-breadcrumb-alternate-text-last-item: var(photon-core-neutral-00-neutral);
   --photon-components-buttons-main-action-background-default: var(photon-semantic-actionable-primary-background);
   --photon-components-buttons-main-action-background-hover: var(photon-semantic-actionable-primary-background-hover);
   --photon-components-buttons-main-action-background-focused: var(photon-semantic-actionable-primary-background);
@@ -481,18 +495,12 @@
   --photon-components-navigation-global-top-bar-avatar-background: var(photon-core-neutral-00-neutral);
   --photon-components-navigation-global-top-bar-avatar-icon-text: var(photon-core-neutral-140-neutral);
   --photon-components-navigation-global-top-bar-avatar-signify: var(photon-semantic-logos-signify);
-  --photon-components-navigation-global-top-bar-details-details-textcolor: var(photon-core-neutral-00-neutral);
-  --photon-components-navigation-global-top-bar-details-details-secondary-textcolor: var(photon-core-secondary-80-secondary);
+  --photon-components-navigation-global-top-bar-profile-profile-textcolor: var(photon-core-neutral-00-neutral);
+  --photon-components-navigation-global-top-bar-profile-profile-secondary-textcolor: var(photon-core-secondary-80-secondary);
   --photon-components-navigation-global-top-bar-global-action-icon: var(photon-core-neutral-00-neutral);
-  --photon-components-navigation-navigational-tab-textcolor-default: var(photon-core-neutral-60-neutral);
-  --photon-components-navigation-navigational-tab-textcolor-hover: var(photon-core-neutral-20-neutral);
-  --photon-components-navigation-navigational-tab-textcolor-active: var(photon-core-primary-00-primary);
   --photon-components-navigation-global-top-bar-icon: var(photon-core-neutral-00-neutral);
   --photon-components-navigation-global-top-bar-background: var(photon-core-neutral-140-neutral);
   --photon-components-navigation-global-top-bar-textcolor: var(photon-core-neutral-00-neutral);
-  --photon-components-navigation-tab-bar-background: var(photon-semantic-surface);
-  --photon-components-navigation-tab-bar-icon: var(photon-semantic-icons-actionable);
-  --photon-components-navigation-tab-bar-overflow-gradient: var(photon-semantic-overflow-gradient);
   --photon-components-notification-indicator-background: var(photon-semantic-alerts-medium);
   --photon-components-notification-indicator-number-dot: var(photon-semantic-secondary);
   --photon-components-notification-indicator-border-white: var(photon-semantic-border-static-00-neutral);
@@ -921,10 +929,10 @@
   @extend .photon-semantic-body-text-main-large;
 }
 .photon-components-list-items-touch-section-header {
-  @extend .photon-semantic-label-or-caption-labels;
+  @extend .photon-semantic-title-section-title-large;
 }
 .photon-components-list-items-pointer-section-header {
-  @extend .photon-semantic-label-or-caption-labels;
+  @extend .photon-semantic-title-section-title-small;
 }
 .photon-components-tooltip-title {
   @extend .photon-semantic-label-or-caption-labels;
@@ -1106,10 +1114,10 @@
 .photon-components-navigation-global-top-bar-avatar-typography {
   @extend .photon-semantic-body-text-main-large-bold;
 }
-.photon-components-navigation-global-top-bar-details-text-small {
+.photon-components-navigation-global-top-bar-profile-text-small {
   @extend .photon-semantic-label-or-caption-caption-small;
 }
-.photon-components-navigation-global-top-bar-details-text {
+.photon-components-navigation-global-top-bar-profile-text {
   @extend .photon-semantic-body-text-main-small;
 }
 .photon-components-navigation-navigational-tab-text {
@@ -1119,6 +1127,18 @@
   @extend .photon-semantic-body-text-main-large;
 }
 .photon-components-navigation-global-top-bar-title {
+  @extend .photon-semantic-body-text-main-large-bold;
+}
+.photon-components-navigation-sidebar-text {
+  @extend .photon-semantic-body-text-main-large;
+}
+.photon-components-navigation-sidebar-text-selected {
+  @extend .photon-semantic-body-text-main-large-bold;
+}
+.photon-components-navigation-side-panel-text {
+  @extend .photon-semantic-body-text-main-large;
+}
+.photon-components-navigation-side-panel-text-selected {
   @extend .photon-semantic-body-text-main-large-bold;
 }
 
